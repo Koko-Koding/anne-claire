@@ -13,9 +13,8 @@ export const LanguageSwitcher = () => {
       >
         NL
       </Link>
-      <span>/</span>
       <Link 
-        href="/" 
+        href="/en" 
         locale="en"
         className={`${locale === 'en' ? 'font-bold' : ''}`}
       >

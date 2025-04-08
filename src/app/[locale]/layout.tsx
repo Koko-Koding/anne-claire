@@ -13,13 +13,18 @@ async function getMessages(locale: string) {
   }
 }
 
-export default async function LocaleLayout({
-  children,
-  params: { locale },
-}: {
+type Props = {
   children: React.ReactNode;
   params: { locale: string };
-}) {
+};
+
+export default async function LocaleLayout({
+  children,
+  params,
+}: Props) {
+
+    const { locale } = await params;
+
   const messages = await getMessages(locale);
 
   return (
