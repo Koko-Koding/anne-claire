@@ -5,10 +5,10 @@ export default function Home() {
 
   return (
     <>
-      <section id="home" className="min-h-screen flex items-center justify-center bg-gray-50">
+      <section id="home" className="py-8 relative flex items-center justify-center bg-light-beige">
         <div className="text-center">
-          <h1 className="text-4xl font-bold mb-4">{t('hero.title')}</h1>
-          <p className="text-xl text-gray-600">{t('hero.subtitle')}</p>
+          <h1 className="uppercase text-2xl mb-2">{t('hero.title')}</h1>
+          <p className="text-lg text-gray-600">{t('hero.subtitle')}</p>
         </div>
       </section>
 
