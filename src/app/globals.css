@@ -3,13 +3,28 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --color-light-beige: #f8f8f4;
+  --color-beige: #dedbce;
+  --color-blue-900: #7897cf;
+  --color-blue-700: #a2b7de;
+  --color-blue-500: #c0cee9;
+  --color-blue-300: #d5def0;
+  --color-dark-gray: #15243c;
 }
+
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-light-beige: var(--color-light-beige);
+  --color-beige: var(--color-beige);
+  --color-blue-900: var(--color-blue-900);
+  --color-blue-700: var(--color-blue-700);
+  --color-blue-500: var(--color-blue-500);
+  --color-blue-300: var(--color-blue-300);
+  --color-dark-gray: var(--color-dark-gray);
 }
 
 @media (prefers-color-scheme: dark) {
