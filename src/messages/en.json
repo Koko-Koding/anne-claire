@@ -2,6 +2,12 @@
   "navigation": {
     "home": "Home",
     "about": "About",
+    "introduction": "Introduction",
+    "fivePrinciples": "Five Nature-Oriented Principles",
+    "testimonials": "Testimonials",
+    "keywords": "Keywords",
+    "aboutAnneClaire": "About Anne-Claire",
+    "tariffs": "Tariffs",
     "services": "Services",
     "contact": "Contact"
   },
