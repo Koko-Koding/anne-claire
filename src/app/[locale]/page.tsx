@@ -20,7 +20,7 @@ export default function Home() {
       <section>
         <div className="py-8 relative flex items-center justify-center bg-white">
           <BulletBall color="bg-blue-900" />
-          <div className="text-center">
+          <div className="text-center max-w-4xl mx-auto">
             <p className="lowercase text-lg">{t("keywords.content")}</p>
           </div>
         </div>
@@ -31,8 +31,11 @@ export default function Home() {
         className="bg-gray-50 py-8"
       >
         <div className="max-w-4xl mx-auto px-4">
-          <p className="text-lg text-black mb-8">
-            {t("introduction.description")}
+          <p className="text-lg text-black">
+            {t("testimonials.else.content")}
+          </p>
+          <p className="text-md text-black mt-3 font-extralight uppercase">
+            {t("testimonials.else.name")}
           </p>
         </div>
       </section>
@@ -46,7 +49,7 @@ export default function Home() {
             {t("fivePrinciples.title")}
           </h2>
           <p className="text-sm text-black mb-8">
-            {t("fivePrinciples.description")}
+            {t("fivePrinciples.content")}
           </p>
         </div>
       </section>
@@ -57,21 +60,21 @@ export default function Home() {
         <BulletBall color="bg-dark-gray" />
         <BulletBall color="bg-white" absolute={false} className="mt-2" />
         <div className="max-w-4xl mx-auto px-4">
-          <p className="text-lg text-blac mb-8">
-            {t("fivePrinciples.description")}
+          <p className="text-lg text-black">
+            {t("testimonials.nathalie.content")}
+          </p>
+          <p className="text-md text-black mt-3 font-extralight uppercase">
+            {t("testimonials.nathalie.name")}
           </p>
         </div>
       </section>
 
       <section
         id="about"
-        className="flex items-center justify-center bg-white py-8"
+        className="grid lg:grid-cols-2 items-center justify-center bg-white py-8"
       >
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-6">{t("about.title")}</h2>
-          <p className="text-lg text-black">{t("about.description")}</p>
-          {/* Add more content about the therapist */}
-        </div>
+
+        
       </section>
 
       <section
