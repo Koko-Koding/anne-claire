@@ -26,7 +26,7 @@ export const HamburgerMenu = ({ navigationItems }: HamburgerMenuProps) => {
     <>
       <button
         onClick={() => setIsMenuOpen(!isMenuOpen)}
-        className="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+        className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
       >
         <span className="sr-only">Open main menu</span>
         <svg
@@ -60,7 +60,7 @@ export const HamburgerMenu = ({ navigationItems }: HamburgerMenuProps) => {
       </button>
 
       {/* Mobile menu */}
-      <div className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden`}>
+      <div className={`${isMenuOpen ? 'block' : 'hidden'}`}>
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white shadow-lg">
           {navigationItems.map(({ id, label }) => (
             <button

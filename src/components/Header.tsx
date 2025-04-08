@@ -1,7 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { HamburgerMenu } from './HamburgerMenu';
-import { NavigationButton } from './NavigationButton';
 
 export const Header = () => {
   const t = useTranslations('navigation');
@@ -19,12 +18,6 @@ export const Header = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <span className="text-lg font-semibold">Logo</span>
-          </div>
-          
-          <div className="hidden md:flex md:items-center md:space-x-8">
-            {navigationItems.map(({ id, label }) => (
-              <NavigationButton key={id} id={id} label={label} />
-            ))}
           </div>
 
           <div className="flex items-center space-x-4">
