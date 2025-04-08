@@ -2,3 +2,4 @@
 - The project is a simple one page site for a self-employed therapist.
 - It is multi-lingual, with Dutch and English as the two languages, whose routes are / and /en.
 - The project is hosted on an Apache server that simply serves the static files.
+- Fonts are located in ./public/fonts.
