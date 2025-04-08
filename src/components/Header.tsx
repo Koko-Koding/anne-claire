@@ -14,7 +14,7 @@ export const Header = () => {
   ];
 
   return (
-    <header className="bg-beige/50">
+    <header className="bg-beige/50 bg-cover" style={{ backgroundImage: "url('/temp/images/header-bg.jpg')" }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="fixed top-0 left-0 right-0 z-50 flex justify-end items-center py-4">
           <LanguageSwitcher />
