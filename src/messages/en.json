@@ -1,0 +1,26 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "sections": {
+    "hero": {
+      "title": "BATC Complementary Therapist",
+      "subtitle": "Welcome to my practice"
+    },
+    "about": {
+      "title": "About",
+      "description": "Your BATC certified therapist"
+    },
+    "services": {
+      "title": "Services",
+      "description": "Discover my therapeutic services"
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Get in touch with me"
+    }
+  }
+}

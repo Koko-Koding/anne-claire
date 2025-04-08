@@ -1,0 +1,26 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "Over mij",
+    "services": "Diensten",
+    "contact": "Contact"
+  },
+  "sections": {
+    "hero": {
+      "title": "BATC Complementair Therapeut",
+      "subtitle": "Welkom bij mijn praktijk"
+    },
+    "about": {
+      "title": "Over mij",
+      "description": "Uw therapeut met BATC-certificering"
+    },
+    "services": {
+      "title": "Diensten",
+      "description": "Ontdek mijn therapeutische diensten"
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Neem contact met mij op"
+    }
+  }
+}
