@@ -1,0 +1,4 @@
+- This is a Next.js 15 project with TypeScript, Tailwind CSS, meant to be staticly generated.
+- The project is a simple one page site for a self-employed therapist.
+- It is multi-lingual, with Dutch and English as the two languages, whose routes are / and /en.
+- The project is hosted on an Apache server that simply serves the static files.
