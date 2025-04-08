@@ -32,7 +32,7 @@ export default async function LocaleLayout({
       <body className={inter.className}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
-          <main className="pt-16">
+          <main className="">
             {children}
           </main>
         </NextIntlClientProvider>
