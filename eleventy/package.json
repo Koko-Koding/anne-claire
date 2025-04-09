@@ -1,0 +1,31 @@
+{
+  "name": "eleventy",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "tailwindcss:build": "tailwindcss -i ./src/css/styles.css -o ./public/css/bundle.css --minify",
+    "tailwindcss:watch": "tailwindcss -i ./src/css/styles.css -o ./public/css/bundle.css --watch",
+    "eleventy:build": "eleventy",
+    "eleventy:watch": "eleventy --serve",
+    "start": "concurrently \"bun run tailwindcss:watch\" \"bun run eleventy:watch\"",
+    "build": "bun run tailwindcss:build && bun run eleventy:build"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.3",
+    "@types/bun": "latest",
+    "concurrently": "^9.1.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-vite": "^6.0.0",
+    "@jgarber/eleventy-plugin-postcss": "^3.0.1",
+    "@tailwindcss/postcss": "^4.1.3",
+    "@tailwindcss/vite": "^4.1.3",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "4"
+  }
+}
