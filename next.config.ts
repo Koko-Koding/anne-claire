@@ -9,8 +9,6 @@ const nextConfig: NextConfig = {
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
 };
 
-const withMDX = createMDX({
-  // Add markdown plugins here, as desired
-})
+const withMDX = createMDX()
 
-export default withNextIntl(withMDX(nextConfig));
+export default withMDX(withNextIntl(nextConfig));
