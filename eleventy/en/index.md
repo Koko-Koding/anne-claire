@@ -47,7 +47,7 @@ language : nl
 <div>
   <section
     id="home"
-    class="py-8 relative flex items-center justify-center bg-light-beige"
+    class="py-8 relative flex items-center justify-center bg-light-beige text-dark-gray"
   >
     <!-- <BulletBall color="bg-white" /> -->
     <div class="text-center">
@@ -62,7 +62,7 @@ language : nl
 
   <section>
     <div class="py-8 relative flex items-center justify-center bg-white">
-      <div class="mx-auto left-0 right-0 absolute -translate-y-1/2 top-0 z-10 rounded-full w-6 h-6 bg-blue-900"></div>
+      <div class="mx-auto left-0 right-0 absolute -translate-y-1/2 top-0 z-10 rounded-full w-6 h-6 bg-blue-900 text-dark-gray"></div>
       <div class="text-center max-w-4xl mx-auto">
         <p class="lowercase text-lg">
           {{ sections.keywords.content }}
@@ -81,8 +81,8 @@ language : nl
     "
   >
     <div class="max-w-4xl mx-auto px-4">
-      <p class="text-lg text-black">{{ sections.testimonials.else.content }}</p>
-      <p class="text-md text-black mt-3 font-extralight uppercase">
+      <p class="text-lg text-dark-gray">{{ sections.testimonials.else.content }}</p>
+      <p class="text-md text-dark-gray mt-3 font-extralight uppercase">
         {{ sections.testimonials.else.name }}
       </p>
     </div>
@@ -93,7 +93,7 @@ language : nl
       <h2 class="uppercase text-3xl mb-6 text-blue-900">
         {{ sections.fivePrinciples.title }}
       </h2>
-      <div class="text-sm text-black mb-8">
+      <div class="text-sm text-dark-gray mb-8">
 
 Since 2013 I am a registered member of the BATC (Anne-Claire van Putten with AGB code 90048965). The reason I chose this professional organisation is because the BATC developed the concept of the fi ve nature-oriented principles. In my working methods, I incorporate these important principles: energy, stimulus transition, drainage, food and mental well-being. This is part of my holistic view on health matters.
 
@@ -133,10 +133,10 @@ treatments and my thinking. It is a priority to ensure that there is a balanced 
     <div class="mx-auto left-0 right-0 absolute -translate-y-1/2 top-0 z-10 rounded-full w-6 h-6 bg-dark-gray"></div>
     <div class="mx-auto z-10 rounded-full w-6 h-6 bg-white"></div>
     <div class="max-w-4xl mx-auto px-4 mt-4">
-      <p class="text-lg text-black font-light leading-relaxed">
+      <p class="text-lg text-dark-gray font-light leading-relaxed">
         {{ sections.testimonials.nathalie.content }}
       </p>
-      <p class="text-md text-black mt-3 font-extralight uppercase">
+      <p class="text-md text-dark-gray mt-3 font-extralight uppercase">
         {{ sections.testimonials.nathalie.name }}
       </p>
     </div>
@@ -160,7 +160,7 @@ treatments and my thinking. It is a priority to ensure that there is a balanced 
     </div>
     <div class="w-1/2 py-8">
       <h2 class="max-w-sm text-3xl text-blue-900 font-light">{{ sections.about.title }}</h2>
-      <div class="text-sm text-black mt-5 max-w-xs font-extralight">
+      <div class="text-sm text-dark-gray mt-5 max-w-xs font-extralight">
 After graduating from the University of Amsterdam with a degree in Communication Science, I worked as a non-fi ction editor for many years. However, I eventually felt the need for a change in direction. My long-standing interest in natural medicine, combined with my fi rsthand experience of measuring the energy of meridians, led me to pursue various forms of education: naturopathy, Eastern medicine, psychology and spirituality. Through this journey, I gained deep insights into physiological proces- ses, human behaviour, and trauma.
 
 <br>
@@ -189,10 +189,10 @@ With gratitude, Anne-Claire
     "
   >
     <div class="max-w-4xl mx-auto px-4">
-      <p class="text-lg text-black font-light leading-relaxed">
+      <p class="text-lg text-dark-gray font-light leading-relaxed">
         {{ sections.testimonials.eugene.content }}
       </p>
-      <p class="text-md text-black mt-3 font-extralight uppercase">
+      <p class="text-md text-dark-gray mt-3 font-extralight uppercase">
         {{ sections.testimonials.eugene.name }}
       </p>
     </div>
@@ -245,10 +245,10 @@ Rescheduling or cancelling an appointment needs to be done 2 working days in adv
     "
   >
     <div class="max-w-4xl mx-auto px-4">
-      <p class="text-lg text-black font-light leading-relaxed">
+      <p class="text-lg text-dark-gray font-light leading-relaxed">
         {{ sections.testimonials.ariane.content }}
       </p>
-      <p class="text-md text-black mt-3 font-extralight uppercase">
+      <p class="text-md text-dark-gray mt-3 font-extralight uppercase">
         {{ sections.testimonials.ariane.name }}
       </p>
     </div>
@@ -272,7 +272,7 @@ Rescheduling or cancelling an appointment needs to be done 2 working days in adv
     </div>
     <div class="w-1/2 py-8">
       <h2 class="max-w-sm text-3xl text-blue-900">{{ sections.contact.title }}</h2>
-      <div class="text-sm text-black mt-5 max-w-sm font-extralight">
+      <div class="text-sm text-dark-gray mt-5 max-w-sm font-extralight">
 Anne-Claire van Putten<br>
 Haarlemmerdijk 142-III<br>
 1013JJ Amsterdam<br>

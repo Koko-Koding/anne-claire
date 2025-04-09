@@ -3,9 +3,9 @@ layout: base.njk
 sections:
   hero:
     title: Anne-Claire van Putten
-    subtitle: BATC Complementary Therapist
+    subtitle: BATC complementair therapeut
   keywords: 
-    content: orthomolecular medicine ⸱ medicine ⸱ naturopathy ⸱ reflex zone ⸱ electro acupuncture specialised in strengthening the immune system, improving the digestion system and skin problems
+    content: orthomoleculaire geneeskunde ⸱ natuurgeneeskunde ⸱ reflexzone ⸱ elektro-acupunctuur gespecialiseerd in versterken immuun systeem, verbeteren darmconditie en huidproblemen
   testimonials:
     else:
       content: Anne-Claire is an exceptionally professional naturopath and a highly skilled reflex zone therapist. Her knowledge of natural medicine is extensive, and she explores a broad spectrum of remedies, maintaining a large collection for testing. Above all, her advice is precise and tailor-made, and based on thorough measurements. She strongly believes in prevention and natural solutions for the body. Beyond her qualifications, she is a warm and intelligent woman with a genuine and profound interest in people.
@@ -20,12 +20,12 @@ sections:
       content: Our six-year-old son suffered from severe breathing problems, sometimes even at night. A col- league recommended Anne-Claire van Putten, so we decided to visit her. She found a way to relax our child’s lungs—even during the night—while simultaneously strengthening his immune system. Over time, his body was finally able to fight off the microorganisms affecting his lungs. After six consultations, we now have a happy and healthy son.
       name: ARIANE AND KEES
   fivePrinciples:
-    title: THE FIVE NATURE-ORIENTED PRINCIPLES
+    title: De vijf natuurgerichte principes
   about:
-    title: About Anne-Claire van Putten (1960)
-    content: "After graduating from the University of Amsterdam with a degree in Communication Science, I worked as a non-fi ction editor for many years. However, I eventually felt the need for a change in direction. My long-standing interest in natural medicine, combined with my fi rsthand experience of measuring the energy of meridians, led me to pursue various forms of education: naturopathy, Eas- tern medicine, psychology and spirituality. Through this journey, I gained deep insights into physiological proces- ses, human behaviour, and trauma. I studied at the Hogeschool voor Natuurgeneeswij zen (College for Naturopathy) in Arnhem, where my curiosity was immediately drawn to the healing power of herbs and, later, other natural elements such as minerals found in the Earth. I continue to be amazed by the intricate ways in which organs work together within the human body and the profound effects of natural remedies in supporting these functions organically. In my view, recovery and well-being are deeply personal processes. The best approach is one that is tailored to the individual, focusing on personalised solutions that meet their unique needs. Thank you, dr. Annelies Tak, Hilje de Meester- Wagenvoorde and Madelon Hooykaas for your knowledge, wisdom and support. With gratitude, Anne-Claire"
+    title: Over Anne-Claire van Putten (1960)
+    content: "Na mijn studie Communicatiewetenschappen aan de Universiteit van Amsterdam, heb ik lang als non-fictieredacteur gewerkt voor diverse uitgeverijen. Uiteindelijk voelde ik de behoefte om echt van richting te veranderen. Mijn langdurige interesse in natuurgeneeskunde – gecombineerd met de ervaring dat het mogelijk is de energie van organen en stelsels te kunnen meten – motiveerde me te zoeken naar wat het lichaam maar ook de geest nodig hebben. Daardoor ben ik op een holistische manier naar ziektes en energetische processen gaan kijken. En ik besloot me verder te verdiepen in verschillende richtingen: natuurgeneeskunde, oosterse geneeswijzen, psychologie en spiritualiteit. Het was ook een reis waarin ik diepgaande inzichten kreeg in fysiologische processen, menselijk gedrag en trauma. Later studeerde ik aan de Hogeschool voor Natuurgeneeswijzen in Arnhem, waar ik gefascineerd raakte door de medicinale kracht van planten en andere natuurlijke elementen, zoals mineralen die zich in de aarde bevinden. Nog steeds blijf ik me verbazen over de ingenieuze manier waarop organen samenwerken in het menselijk lichaam én de effecten van natuurlijke middelen die het lichaam organisch kunnen ondersteunen en genezen. Herstel en welzijn zijn diepe persoonlijke processen, zo heb ik geleerd, waarbij het mogelijk is een behandeling helemaal op de persoon af te stemmen. Dr. Annelies Tak, Hilje de Meester-Wagenvoorde en Madelon Hooykaas ben ik diep dankbaar voor alle kennis, wijsheid en support. Anne-Claire"
   tariffs:
-    title: Tariffs and reimbursement
+    title: Tarieven behandelingen en vergoedingen
   contact:
     title: Contact
   footer:
@@ -47,7 +47,7 @@ language : nl
 <div>
   <section
     id="home"
-    class="py-8 relative flex items-center justify-center bg-light-beige"
+    class="py-8 relative flex items-center justify-center bg-light-beige text-dark-gray"
   >
     <!-- <BulletBall color="bg-white" /> -->
     <div class="text-center">
@@ -61,7 +61,7 @@ language : nl
   </section>
 
   <section>
-    <div class="py-8 relative flex items-center justify-center bg-white">
+    <div class="py-8 relative flex items-center justify-center bg-white text-dark-gray">
       <div class="mx-auto left-0 right-0 absolute -translate-y-1/2 top-0 z-10 rounded-full w-6 h-6 bg-blue-900"></div>
       <div class="text-center max-w-4xl mx-auto">
         <p class="lowercase text-lg">
@@ -81,8 +81,8 @@ language : nl
     "
   >
     <div class="max-w-4xl mx-auto px-4">
-      <p class="text-lg text-black">{{ sections.testimonials.else.content }}</p>
-      <p class="text-md text-black mt-3 font-extralight uppercase">
+      <p class="text-lg text-dark-gray">{{ sections.testimonials.else.content }}</p>
+      <p class="text-md text-dark-gray mt-3 font-extralight uppercase">
         {{ sections.testimonials.else.name }}
       </p>
     </div>
@@ -93,30 +93,29 @@ language : nl
       <h2 class="uppercase text-3xl mb-6 text-blue-900">
         {{ sections.fivePrinciples.title }}
       </h2>
-      <div class="text-sm text-black mb-8">
+      <div class="text-sm text-dark-gray mb-8">
 
-Since 2013 I am a registered member of the BATC (Anne-Claire van Putten with AGB code 90048965). The reason I chose this professional organisation is because the BATC developed the concept of the fi ve nature-oriented principles. In my working methods, I incorporate these important principles: energy, stimulus transition, drainage, food and mental well-being. This is part of my holistic view on health matters.
-
-<br>
-
-**Energy** is seen as the basis of life worldwide. Everything in and around us consists of energy. And energy also forms the basis of my
-treatments and my thinking. It is a priority to ensure that there is a balanced fl ow of energy and that blockages can be removed.
+Sinds 2013 ben ik lid van de BATC (Anne-Claire van Putten – AGB code 90048965). De reden dat ik voor deze beroepsorganisatie heb gekozen, is dat de BATC het concept van de vijf natuurgerichte principes heeft ontwikkeld. Deze principes maken deel uit van mijn holistische visie op gezondheid.
 
 <br>
 
-**Stimulus** transmission takes place via the nervous system which is the communication network of the body. The stimulus transfer also ensures that certain signals, for example about what you need for recovery, are passed on to the body. Good stimulus transfer is essential for being able to function and recover well.
+**Energie** is de basis van ons leven; alles in en om ons heen bestaat uit energie. Denken in termen van energie vormt de basis van mijn werk. Het is belangrijk ervoor te zorgen dat iemand over voldoende energie gaat beschikken, dat er een meer evenwichtig stromen van de energie gaat plaatsvinden, en dat eventuele blokkades worden opgeheven.
 
 <br>
 
-**Drainage** is important when there are too many waste products in the body, e.g. in our intestines, nutrients can no longer be absorbed properly. Under favourable conditions, our body is able to excrete most waste products without problems via our excretory organs. But our body itself can create an overload of waste products because, for example, our lymphatic system or blood circulation does not function optimally. It can be desirable to support and stimulate the body in this.
+**Prikkeloverdracht** komt tot stand via het zenuwstelsel en is het communicatienetwerk van het lichaam. De prikkeloverdracht zorgt er ook voor dat bepaalde signalen – bijvoorbeeld wat iemand nodig hebt voor herstel – aan het lichaam worden doorgegeven. Een goede prikkeloverdracht is essentieel om goed te kunnen functioneren en te herstellen.
 
 <br>
 
-**Food** maintains your cells and provides them with fuel. Our daily diet is one of the most important components for a fi t and healthy body and a sharp mind. Certain foods are not tolerated equally well by everyone. This can be a temporary issue. Through nutritional advice and taking in special natural supplements this can change in a positive way.
+**Drainage** is het stimuleren van het verwerken van afvalstoffen. Onder gunstige omstandigheden is het lichaam in staat de meeste afvalstoffen af te breken en via de uitscheidingsorganen af te voeren. Daarnaast kan er in het lichaam een teveel aan afvalstoffen ontstaan doordat bijvoorbeeld het lymfesysteem of bloedcirculatie niet optimaal functioneren. Wanneer zich te veel afvalstoffen ophopen, bijvoorbeeld in de darmen, kunnen voedingsstoffen ook niet goed meer worden opgenomen.
 
 <br>
 
-**Mental well-being** is important for proper functioning of the body. Emotional, mental and spiritual aspects infl uence your health. Awareness of your thoughts and behavioural patterns are obviously important. This applies for mental, but also physical well-being.
+**Voeding** onderhoudt de cellen en voorziet deze van brandstof. Dagelijkse voeding is een van de belangrijkste componenten voor een gezond lichaam én een scherpe geest. Maar bepaalde voedingsmiddelen worden niet door iedereen even goed verdragen. Dit kan een tijdelijk probleem zijn, en door gerichte voedingsadviezen in combinatie met natuurlijke supplementen kan dit in gunstige zin veranderen.
+
+<br>
+
+**Geestelijk welzijn** is van wezenlijk belang. Emotionele, mentale en spirituele aspecten beïnvloeden de gezondheid en het welzijn. Door zorgen of andere geestelijke spanningen kunnen veel klachten ontstaan. Bewustzijn over denk- en gedragspatronen is buitengewoon belangrijk. Dit geldt voor het geestelijke, maar ook voor het fysieke welzijn.
 
       </div>
     </div>
@@ -133,10 +132,10 @@ treatments and my thinking. It is a priority to ensure that there is a balanced 
     <div class="mx-auto left-0 right-0 absolute -translate-y-1/2 top-0 z-10 rounded-full w-6 h-6 bg-dark-gray"></div>
     <div class="mx-auto z-10 rounded-full w-6 h-6 bg-white"></div>
     <div class="max-w-4xl mx-auto px-4 mt-4">
-      <p class="text-lg text-black font-light leading-relaxed">
+      <p class="text-lg text-dark-gray font-light leading-relaxed">
         {{ sections.testimonials.nathalie.content }}
       </p>
-      <p class="text-md text-black mt-3 font-extralight uppercase">
+      <p class="text-md text-dark-gray mt-3 font-extralight uppercase">
         {{ sections.testimonials.nathalie.name }}
       </p>
     </div>
@@ -160,24 +159,34 @@ treatments and my thinking. It is a priority to ensure that there is a balanced 
     </div>
     <div class="w-1/2 py-8">
       <h2 class="max-w-sm text-3xl text-blue-900 font-light">{{ sections.about.title }}</h2>
-      <div class="text-sm text-black mt-5 max-w-xs font-extralight">
-After graduating from the University of Amsterdam with a degree in Communication Science, I worked as a non-fi ction editor for many years. However, I eventually felt the need for a change in direction. My long-standing interest in natural medicine, combined with my fi rsthand experience of measuring the energy of meridians, led me to pursue various forms of education: naturopathy, Eastern medicine, psychology and spirituality. Through this journey, I gained deep insights into physiological proces- ses, human behaviour, and trauma.
+      <div class="text-sm text-dark-gray mt-5 max-w-xs font-extralight">
+Na mijn studie Communicatiewetenschappen aan de Universiteit van Amsterdam, heb ik lang als non-fictieredacteur gewerkt voor diverse uitgeverijen.
+
+<br>
+<br>
+
+Uiteindelijk voelde ik de behoefte om echt van richting te veranderen. Mijn langdurige interesse in natuurgeneeskunde – gecombineerd met de ervaring dat het mogelijk is de energie van organen en stelsels te kunnen meten – motiveerde me te zoeken naar wat het lichaam maar ook de geest nodig hebben. Daardoor ben ik op een holistische manier naar ziektes en energetische processen gaan kijken. En ik besloot me verder te verdiepen in verschillende richtingen: natuurgeneeskunde, oosterse geneeswijzen, psychologie en spiritualiteit. Het was ook een reis waarin ik diepgaande inzichten kreeg in fysiologische processen, menselijk gedrag en trauma.
 
 <br>
 
-I studied at the Hogeschool voor Natuurgeneeswijzen (College for Naturopathy) in Arnhem, where my curiosity was immediately drawn to the healing power of herbs and, later, other natural elements such as minerals found in the Earth. I continue to be amazed by the intricate ways in which organs work together within the human body and the profound effects of natural remedies in supporting these functions organically.
+
 
 <br>
 
-In my view, recovery and well-being are deeply personal processes. The best approach is one that is tailored to the individual, focusing on personalised solutions that meet their unique needs.
+Later studeerde ik aan de Hogeschool voor Natuurgeneeswijzen in Arnhem, waar ik gefascineerd raakte door de medicinale kracht van planten en andere natuurlijke elementen, zoals mineralen die zich in de aarde bevinden. 
+Nog steeds blijf ik me verbazen over de ingenieuze manier waarop organen samenwerken in het menselijk lichaam én de effecten van natuurlijke middelen die het lichaam organisch kunnen ondersteunen en genezen. 
 
 <br>
 
-Thank you, dr. Annelies Tak, Hilje de Meester-Wagenvoorde and Madelon Hooykaas for your knowledge, wisdom and support.
+Herstel en welzijn zijn diepe persoonlijke processen, zo heb ik geleerd, waarbij het mogelijk is een behandeling helemaal op de persoon af te stemmen. 
 
 <br>
 
-With gratitude, Anne-Claire
+Dr. Annelies Tak, Hilje de Meester-Wagenvoorde en Madelon Hooykaas ben ik diep dankbaar voor alle kennis, wijsheid en support. 
+
+<br>
+
+Anne-Claire
       </div> </div></section>
   <section
     id="testimonialEugene"
@@ -189,48 +198,48 @@ With gratitude, Anne-Claire
     "
   >
     <div class="max-w-4xl mx-auto px-4">
-      <p class="text-lg text-black font-light leading-relaxed">
+      <p class="text-lg text-dark-gray font-light leading-relaxed">
         {{ sections.testimonials.eugene.content }}
       </p>
-      <p class="text-md text-black mt-3 font-extralight uppercase">
+      <p class="text-md text-dark-gray mt-3 font-extralight uppercase">
         {{ sections.testimonials.eugene.name }}
       </p>
     </div>
   </section>
   <section
     id="tariffs"
-    class="flex items-center justify-center bg-white py-8"
+    class="flex items-center justify-center bg-white py-8 text-dark-gray"
   >
     <div class="max-w-4xl w-full mx-auto px-4">
       <h2 class="text-3xl mb-6 text-blue-900 font-light">{{ sections.tariffs.title }}</h2>
       <ul class="max-w-3xl -ml-5 list-disc pl-6 mt-4 text-sm list-outside">
-      To make an appointment please send an <a href="mailto:info@example.com" target="_blank" class="underline">email</a> with your mobile number and I will phone you as soon as possible.
+      Voor informatie of het maken van een afspraak graag een e-mail met je mobiele nummer en ik bel zo spoedig mogelijk.
         <li class="mt-4">
-<span class="font-semibold">Introductory telephone interview (15 - 20 minutes)</span><br>
-free
+<span class="font-semibold">Telefonisch kennismakingsgesprek (15 -20 minuten)</span><br>
+kosteloos
 </li>
         <li class="mt-4">
-<span class="font-semibold">Orthomolecular medicine consultation</span><br>
-from € 40 per 30 minutes (reimbursed with code 24000)
+<span class="font-semibold">Orthomoleculaire geneeskunde</span><br>
+vanaf € 40 per 30 minuten (vergoeding onder code 24000)
 </li>
         <li class="mt-4">
-<span class="font-semibold">Reflex zone therapy</span><br>
-from € 40 per 30 minutes (reimbursed with code 24009)
+<span class="font-semibold">Reflexzone therapie</span><br>
+vanaf € 40 per 30 minuten (vergoeding onder code 24009)
 </li>
         <li class="mt-4">
-<span class="font-semibold">Integral naturopathic consultation</span><br>
-from € 90 per hour
+<span class="font-semibold">Integraal natuurgeneeskundig consult</span><br>
+vanaf € 90 per uur
 </li>
         <li class="mt-4">
-<span class="font-semibold">Psychosocial care provision</span><br>
-from € 90 per hour
+<span class="font-semibold">Psychosociale zorgverlening</span><br>
+vanaf € 90 per uur
 </li>
 <br>
-<span class="font-semibold">My consultations are (partly) reimbursed by:</span>
+<span class="font-semibold">Mijn consulten worden (gedeeltelijk) vergoed door:</span>
 
-Zilveren Kruis Achmea, CZ, Nationale Nederlanden, Ohra, De Friesland, ONVZ, PNO, Menzis, VGZ, IZZ, IZA, Univé, UMC and United Consumers.
+Zilveren Kruis Achmea, CZ, Nationale Nederlanden, Ohra, De Friesland, ONVZ, PNO, Menzis, VGZ, IZZ, IZA, Univé, UMC en United Consumers.
 <br><br>
-Rescheduling or cancelling an appointment needs to be done 2 working days in advance.
+Bij verhindering graag twee werkdagen van tevoren afzeggen.
 </ul>
     </div>
   </section>
@@ -245,10 +254,10 @@ Rescheduling or cancelling an appointment needs to be done 2 working days in adv
     "
   >
     <div class="max-w-4xl mx-auto px-4">
-      <p class="text-lg text-black font-light leading-relaxed">
+      <p class="text-lg text-dark-gray font-light leading-relaxed">
         {{ sections.testimonials.ariane.content }}
       </p>
-      <p class="text-md text-black mt-3 font-extralight uppercase">
+      <p class="text-md text-dark-gray mt-3 font-extralight uppercase">
         {{ sections.testimonials.ariane.name }}
       </p>
     </div>
@@ -272,35 +281,35 @@ Rescheduling or cancelling an appointment needs to be done 2 working days in adv
     </div>
     <div class="w-1/2 py-8">
       <h2 class="max-w-sm text-3xl text-blue-900">{{ sections.contact.title }}</h2>
-      <div class="text-sm text-black mt-5 max-w-sm font-extralight">
+      <div class="text-sm text-dark-gray mt-5 max-w-sm font-extralight">
 Anne-Claire van Putten<br>
 Haarlemmerdijk 142-III<br>
 1013JJ Amsterdam<br>
-and on location<br>
+en op locatie<br>
 <br>
-email: anneclairevanputten@xs4all.nl<br>
+e-mail: anneclairevanputten@xs4all.nl<br>
 tel. + (31)20-6272482
 <br>
 <br>
 KvK 3438448<br>
 AGB code 90048965<br>
 <br>
-<b class="font-medium">The practice is accessible by public transport:</b>
+<b class="font-medium">De praktijk is bereikbaar met openbaar vervoer:</b>
 <br>
-bus 18, 21 and 22:<br>
-stop Buiten Oranjestraat or<br>
-Haarlemmerplein<br>
+bus 18, 21 en 22:<br>
+halte Buiten Oranjestraat of<br>
+halte Haarlemmerplein<br>
 tram 5:<br>
-stop Haarlemmerplein<br>
+halte Haarlemmerplein<br>
 <br>
-<b class="font-medium">Parking near Haarlemmerplein:</b>
+<b class="font-medium">Parkeren vlakbij het Haarlemmerplein:</b>
 <br>
 Parkeergarage Willemspoort, Haarlemmerhouttuinen 549<br>
 <br>
-<b class="font-medium">Qualifications Vektis:</b> <br>
-naturopathy and psychosocial caretaker<br>
-(BATC professional organisation since 2013,<br>
-and since 2025 NAP registered therapist)
+<b class="font-medium">Kwalificaties Vektis:</b> <br>
+natuurgeneeskunde en psychosociaal zorgverlener<br>
+(BATC beroepsvereniging sinds 2013,<br>
+en sinds 2025 NAP registertherapeut)
 
   </div>
   
@@ -332,7 +341,7 @@ and since 2025 NAP registered therapist)
 
 <footer class="bg-beige py-8">
   <div class="max-w-4xl mx-auto px-4">
-    <p class="text-sm text-center">
+    <p class="text-sm text-center text-dark-gray">
       <a href="{{ sections.footer.design.siteUrl }}" class="font-medium hover:underline">
         {{ sections.footer.design.name }}
       </a>
