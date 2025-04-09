@@ -40,7 +40,7 @@ language : nl
     id="introduction"
     class="bg-gray-50 py-12"
     style="
-      background-image: url('/temp/images/testimonials-else-bg.jpg');
+      background-image: url('/public/temp/images/testimonials-else-bg.jpg');
       background-size: cover;
       background-position: bottom;
     "
@@ -67,7 +67,7 @@ language : nl
   <section
     class="bg-beige py-8 relative w-full"
     style="
-      background-image: url('/temp/images/testimonials-nathalie-bg.jpg');
+      background-image: url('/public/temp/images/testimonials-nathalie-bg.jpg');
       background-size: cover;
       background-position: bottom;
     "
