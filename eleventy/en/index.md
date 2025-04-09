@@ -28,6 +28,8 @@ language : en
   <section>
     <div class="py-8 relative flex items-center justify-center bg-white">
       <!-- <BulletBall color="bg-blue-900" /> -->
+      <!-- mx-auto left-0 right-0 rounded-full -->
+      <div class="mx-auto left-0 right-0 z-10 rounded-full w-6 h-6 bg-blue-900"></div>
       <div class="text-center max-w-4xl mx-auto">
         <p class="lowercase text-lg">
           {{ keywords.content}}
