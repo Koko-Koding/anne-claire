@@ -6,7 +6,7 @@ description: This is a test of the Eleventy static site generator.
 tags: [orthomolecular medicine, medicine, naturopathy, reflex zone, electro acupuncture]
 author: Anne-Claire van Putten
 date: 2025-04-01
-language : nl
+language : en
 ---
 
 <div>
