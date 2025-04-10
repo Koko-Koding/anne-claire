@@ -58,17 +58,28 @@ language : nl
           <span>EN</span>
         </a>
       </div>
-      <!-- hamburger button with 4 lines -->
-      <button id="menuButton" class="flex flex-col items-center justify-center w-10 h-10 space-y-1.5 cursor-pointer z-20">
-        <span class="block w-8 h-0.5 bg-white"></span>
-        <span class="block w-8 h-0.5 bg-white"></span>
-        <span class="block w-8 h-0.5 bg-white"></span>
-        <span class="block w-8 h-0.5 bg-white"></span>
+      <!-- Menu toggle button - transforms between hamburger and close icon -->
+      <button id="menuButton" class="flex flex-col items-center justify-center w-10 h-10 cursor-pointer z-20">
+        <!-- Hamburger icon (visible when menu is closed) -->
+        <div id="hamburgerIcon" class="flex flex-col space-y-1.5 items-center justify-center">
+          <span class="block w-8 h-0.5 bg-white"></span>
+          <span class="block w-8 h-0.5 bg-white"></span>
+          <span class="block w-8 h-0.5 bg-white"></span>
+          <span class="block w-8 h-0.5 bg-white"></span>
+        </div>
       </button>
     </div>
     
     <!-- Navigation Menu -->
-    <nav id="navigationMenu" class="hidden fixed top-0 left-0 w-full h-full bg-dark-gray bg-opacity-95 z-20 flex-col items-center justify-center">
+    <nav id="navigationMenu" class="hidden fixed top-0 right-0 left-0 w-full h-full bg-dark-gray bg-opacity-95 z-20 flex-col items-center justify-center">
+      <!-- Close button inside the menu -->
+      <button id="closeMenuButton" class="absolute top-4 right-4 w-10 h-10 flex items-center justify-center cursor-pointer">
+        <div class="relative w-8 h-8">
+          <span class="absolute top-1/2 left-0 w-8 h-0.5 bg-white transform -rotate-45"></span>
+          <span class="absolute top-1/2 left-0 w-8 h-0.5 bg-white transform rotate-45"></span>
+        </div>
+      </button>
+      
       <div class="container max-w-4xl mx-auto px-4 py-12 text-center">
         <ul class="space-y-6">
           <li><a href="#home" class="text-white text-xl hover:text-blue-300 transition-colors">Home</a></li>

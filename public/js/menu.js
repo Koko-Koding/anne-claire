@@ -1,12 +1,19 @@
 // Navigation menu functionality
 document.addEventListener('DOMContentLoaded', function() {
   const menuButton = document.getElementById('menuButton');
+  const closeMenuButton = document.getElementById('closeMenuButton');
   const navigationMenu = document.getElementById('navigationMenu');
   
-  // Toggle menu visibility when clicking the hamburger icon
+  // Open menu when clicking the hamburger button
   menuButton.addEventListener('click', function() {
-    navigationMenu.classList.toggle('hidden');
-    navigationMenu.classList.toggle('flex');
+    navigationMenu.classList.remove('hidden');
+    navigationMenu.classList.add('flex');
+  });
+  
+  // Close menu when clicking the close button inside the menu
+  closeMenuButton.addEventListener('click', function() {
+    navigationMenu.classList.add('hidden');
+    navigationMenu.classList.remove('flex');
   });
   
   // Close menu when clicking a link (for mobile)
