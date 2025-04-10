@@ -1,0 +1,218 @@
+@import "tailwindcss";
+
+/* Font Face Declarations */
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('/public/fonts/PlusJakartaSans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('/public/fonts/PlusJakartaSans-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Barlow Font Family */
+/* Thin - Weight 100 */
+@font-face {
+  font-family: 'Barlow';
+  src: url('/public/fonts/Barlow-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('/public/fonts/Barlow-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Extra Light - Weight 200 */
+@font-face {
+  font-family: 'Barlow';
+  src: url('/public/fonts/Barlow-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('/public/fonts/Barlow-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Light - Weight 300 */
+@font-face {
+  font-family: 'Barlow';
+  src: url('/public/fonts/Barlow-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('/public/fonts/Barlow-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Regular - Weight 400 */
+@font-face {
+  font-family: 'Barlow';
+  src: url('/public/fonts/Barlow-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('/public/fonts/Barlow-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Medium - Weight 500 */
+@font-face {
+  font-family: 'Barlow';
+  src: url('/public/fonts/Barlow-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('/public/fonts/Barlow-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Semi Bold - Weight 600 */
+@font-face {
+  font-family: 'Barlow';
+  src: url('/public/fonts/Barlow-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('/public/fonts/Barlow-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Bold - Weight 700 */
+@font-face {
+  font-family: 'Barlow';
+  src: url('/public/fonts/Barlow-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('/public/fonts/Barlow-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Extra Bold - Weight 800 */
+@font-face {
+  font-family: 'Barlow';
+  src: url('/public/fonts/Barlow-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('/public/fonts/Barlow-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Black - Weight 900 */
+@font-face {
+  font-family: 'Barlow';
+  src: url('/public/fonts/Barlow-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('/public/fonts/Barlow-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --color-light-beige: #f5f4ef;
+  --color-beige: #dcd6ca;
+  --color-blue-900: #8191de;
+  --color-blue-700: #a2b7de;
+  --color-blue-500: #c0cee9;
+  --color-blue-300: #d5def0;
+  --color-dark-gray: #15243c;
+  
+  /* Font variables */
+  --font-heading: 'Plus Jakarta Sans', sans-serif;
+  --font-body: 'Barlow', sans-serif;
+}
+
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-light-beige: var(--color-light-beige);
+  --color-beige: var(--color-beige);
+  --color-blue-900: var(--color-blue-900);
+  --color-blue-700: var(--color-blue-700);
+  --color-blue-500: var(--color-blue-500);
+  --color-blue-300: var(--color-blue-300);
+  --color-dark-gray: var(--color-dark-gray);
+
+  --font-display: 'Plus Jakarta Sans', sans-serif;
+  --font-sans: 'Barlow', sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
