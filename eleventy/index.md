@@ -84,7 +84,7 @@ language : nl
   </section>
 
   <section>
-    <div class="py-8 relative flex items-center justify-center bg-white text-dark-gray">
+    <div class="py-8 px-4 relative flex items-center justify-center bg-white text-dark-gray">
       <div class="mx-auto left-0 right-0 absolute -translate-y-1/2 top-0 z-10 rounded-full w-6 h-6 bg-blue-900"></div>
       <div class="text-center max-w-4xl mx-auto">
         <p class="lowercase text-lg">
@@ -166,14 +166,14 @@ Sinds 2013 ben ik lid van de BATC (Anne-Claire van Putten – AGB code 90048965)
 
   <section
     id="about"
-    class="grid lg:grid grid-cols-2 grid-rows-2 items-start justify-center bg-white gap-x-12"
+    class="flex flex-col-reverse lg:grid grid-cols-2 grid-rows-2 items-start justify-center bg-white"
   >
     <img
       src="/public/temp/images/about-bg.jpg"
       alt="Anne-Claire"
       width="800"
       height="600"
-      class="w-auto h-full object-cover col-span-1 row-span-1"
+      class="w-full h-full object-cover col-span-1 row-span-1 bg-green-900"
     />
     <div class="relative h-full bg-blue-500 col-start-1 row-start-2 col-span-1 row-span-1">
       <div class="h-full w-full overflow-hidden relative">
@@ -183,7 +183,7 @@ Sinds 2013 ben ik lid van de BATC (Anne-Claire van Putten – AGB code 90048965)
       <!-- bullet ball in the middle of the circle-->
       <div class="mx-auto top-1/2 right-0 translate-x-1/2 -translate-y-1/2 absolute z-10 rounded-full w-6 h-6 bg-blue-900"></div>
     </div>
-    <div class="py-8 col-span-1 row-span-2">
+    <div class="p-8 px-4 lg:px-12 col-span-1 row-span-2 flex flex-col justify-center lg:block">
       <h2 class="max-w-sm text-3xl text-blue-900 font-light">{{ sections.about.title }}</h2>
       <div class="text-sm text-dark-gray mt-5 max-w-xs font-extralight">
 Na mijn studie Communicatiewetenschappen aan de Universiteit van Amsterdam, heb ik lang als non-fictieredacteur gewerkt voor diverse uitgeverijen.
@@ -230,7 +230,7 @@ Anne-Claire
   </section>
   <section
     id="tariffs"
-    class="flex items-center justify-center bg-white py-16 pb-24 text-dark-gray relative"
+    class="flex items-center justify-center bg-white py-16 lg:pb-24 text-dark-gray relative"
   >
     <div class="mx-auto left-0 right-0 absolute -translate-y-1/2 top-0 z-10 rounded-full w-6 h-6 bg-dark-gray"></div>
     <div class="max-w-4xl w-full mx-auto px-4">
@@ -288,7 +288,7 @@ Bij verhindering graag twee werkdagen van tevoren afzeggen.
 
   <section
     id="contact"
-    class="flex flex-col lg:grid lg:grid-cols-2 lg:grid-rows-2 bg-white gap-x-12 relative"
+    class="flex flex-col-reverse lg:grid lg:grid-cols-2 lg:grid-rows-2 bg-white relative"
   >
     <div class="col-span-1 row-span-1 relative">
       <img
@@ -300,14 +300,14 @@ Bij verhindering graag twee werkdagen van tevoren afzeggen.
       />
       <div class="mx-auto top-0 right-0 translate-x-1/2 -translate-y-1/2 absolute z-10 rounded-full w-6 h-6 bg-blue-900"></div>
     </div>
-    <div class="bg-blue-900 relative h-full col-start-1 row-start-2 col-span-1 row-span-1">
+    <div class="hidden lg:block bg-blue-900 relative h-full col-start-1 row-start-2 col-span-1 row-span-1">
       <div class="h-full w-full overflow-hidden relative">
         <div class="translate-x-1/2 -translate-y-1/2 w-96 h-96 rounded-full ml-auto bg-white/50"></div>
       </div>
       <!-- bullet ball in the middle of the circle-->
       <div class="mx-auto top-0 right-0 translate-x-1/2 -translate-y-1/2 absolute z-10 rounded-full w-6 h-6 bg-dark-gray"></div>
     </div>
-    <div class="w-1/2 py-8 col-span-1 row-span-2 lg:flex lg:flex-col lg:justify-between">
+    <div class="w-1/2 py-8 px-4 lg:px-12 col-span-1 row-span-2 lg:flex lg:flex-col lg:justify-between">
       <div>
       <h2 class="max-w-sm text-3xl text-blue-900 font-light">{{ sections.contact.title }}</h2>
       <div class="text-sm text-dark-gray mt-5 max-w-sm font-extralight">

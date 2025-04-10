@@ -19,7 +19,7 @@ export default function Home() {
       </section>
 
       <section>
-        <div className="py-8 relative flex items-center justify-center bg-white">
+        <div className="py-8 px-4 relative flex items-center justify-center bg-white">
           <BulletBall color="bg-blue-900" />
           <div className="text-center max-w-4xl mx-auto">
             <p className="lowercase text-lg">{t("keywords.content")}</p>
