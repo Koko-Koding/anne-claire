@@ -107,7 +107,7 @@ language : nl
     class="py-8 relative flex items-center justify-center bg-light-beige text-dark-gray"
   >
     <div class="mx-auto left-0 right-0 absolute -translate-y-1/2 top-0 z-10 rounded-full w-6 h-6 bg-white"></div>
-    <div class="text-center">
+    <div class="text-center font-light">
       <h1 class="uppercase text-2xl mb-2">
         {{ sections.hero.title }}
       </h1>
