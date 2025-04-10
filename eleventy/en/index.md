@@ -283,9 +283,9 @@ Rescheduling or cancelling an appointment needs to be done 2 working days in adv
 
   <section
     id="contact"
-    class="flex lg:flex items-start justify-center bg-white gap-12"
+    class="flex flex-col lg:grid lg:grid-cols-2 lg:grid-rows-2 bg-white gap-x-12 relative"
   >
-    <div class="h-full w-1/2 object-cover">
+    <div class="col-span-1 row-span-1 relative">
       <img
         src="/public/images/a-c.helft3.png"
         alt="Haarlemmerdijk 142-III kaart"
@@ -293,12 +293,18 @@ Rescheduling or cancelling an appointment needs to be done 2 working days in adv
         height="600"
         class="w-auto h-full object-cover"
       />
-      <div class="bg-blue-900 overflow-hidden h-full flex-grow">
+      <div class="mx-auto top-0 right-0 translate-x-1/2 -translate-y-1/2 absolute z-10 rounded-full w-6 h-6 bg-blue-900"></div>
+    </div>
+    <div class="bg-blue-900 relative h-full col-start-1 row-start-2 col-span-1 row-span-1">
+      <div class="h-full w-full overflow-hidden relative">
         <div class="translate-x-1/2 -translate-y-1/2 w-96 h-96 rounded-full ml-auto bg-white/50"></div>
       </div>
+      <!-- bullet ball in the middle of the circle-->
+      <div class="mx-auto top-0 right-0 translate-x-1/2 -translate-y-1/2 absolute z-10 rounded-full w-6 h-6 bg-dark-gray"></div>
     </div>
-    <div class="w-1/2 py-8">
-      <h2 class="max-w-sm text-3xl text-blue-900">{{ sections.contact.title }}</h2>
+    <div class="w-1/2 py-8 col-span-1 row-span-2 lg:flex lg:flex-col lg:justify-between">
+      <div>
+      <h2 class="max-w-sm text-3xl text-blue-900 font-light">{{ sections.contact.title }}</h2>
       <div class="text-sm text-dark-gray mt-5 max-w-sm font-extralight">
 Anne-Claire van Putten<br>
 Haarlemmerdijk 142-III<br>
@@ -329,6 +335,7 @@ naturopathy and psychosocial caretaker<br>
 (BATC professional organisation since 2013,<br>
 and since 2025 NAP registered therapist)
 
+  </div>
   </div>
   
   <div class="flex mt-32 gap-4">
