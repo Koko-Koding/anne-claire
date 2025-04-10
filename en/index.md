@@ -51,7 +51,7 @@ language : nl
   >
     <div class="absolute w-full top-0 flex justify-end items-center gap-4 p-4">
       <div class="flex items-center space-x-0.5">
-        <a href="/" title="Nederlands" class="flex justify-center items-center w-10 h-10 font-light text-xl uppercase text-dark-gray rounded-full transition-colors hover:bg-white/50">
+        <a href=".." title="Nederlands" class="flex justify-center items-center w-10 h-10 font-light text-xl uppercase text-dark-gray rounded-full transition-colors hover:bg-white/50">
           <span>NL</span>
         </a>
         <a href="#" title="English" class="flex justify-center items-center w-10 h-10 font-light text-xl uppercase text-dark-gray bg-white rounded-full">
