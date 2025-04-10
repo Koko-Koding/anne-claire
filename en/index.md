@@ -59,13 +59,26 @@ language : nl
         </a>
       </div>
       <!-- hamburger button with 4 lines -->
-      <button class="flex flex-col items-center justify-center w-10 h-10 space-y-1.5 cursor-pointer">
+      <button id="menuButton" class="flex flex-col items-center justify-center w-10 h-10 space-y-1.5 cursor-pointer z-20">
         <span class="block w-8 h-0.5 bg-white"></span>
         <span class="block w-8 h-0.5 bg-white"></span>
         <span class="block w-8 h-0.5 bg-white"></span>
         <span class="block w-8 h-0.5 bg-white"></span>
       </button>
     </div>
+    
+    <!-- Navigation Menu -->
+    <nav id="navigationMenu" class="hidden fixed top-0 left-0 w-full h-full bg-dark-gray bg-opacity-95 z-20 flex-col items-center justify-center">
+      <div class="container max-w-4xl mx-auto px-4 py-12 text-center">
+        <ul class="space-y-6">
+          <li><a href="#home" class="text-white text-xl hover:text-blue-300 transition-colors">Home</a></li>
+          <li><a href="#fivePrinciples" class="text-white text-xl hover:text-blue-300 transition-colors">Five Principles</a></li>
+          <li><a href="#about" class="text-white text-xl hover:text-blue-300 transition-colors">About Anne-Claire</a></li>
+          <li><a href="#tariffs" class="text-white text-xl hover:text-blue-300 transition-colors">Tariffs</a></li>
+          <li><a href="#contact" class="text-white text-xl hover:text-blue-300 transition-colors">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
     <div class="w-58 h-58 rounded-full bg-white/33 mx-auto"></div>  
   </header>
   <section
