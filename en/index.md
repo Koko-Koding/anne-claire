@@ -400,7 +400,7 @@ and since 2025 NAP registered therapist)
 
 <footer class="bg-beige py-8">
   <div class="max-w-4xl mx-auto px-4">
-    <p class="text-sm text-center">
+    <p class="text-sm text-center text-dark-gray">
       <a href="{{ sections.footer.design.siteUrl }}" class="font-medium hover:underline">
         {{ sections.footer.design.name }}
       </a>
