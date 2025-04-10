@@ -45,8 +45,8 @@ language : nl
 ---
 
 <div>
-  <header 
-    class="bg-light-beige relative" 
+  <header
+    class="bg-light-beige relative"
     style="background-image: url('/public/temp/images/header-bg.jpg'); background-size: cover; background-position: center;"
   >
     <div class="absolute w-full top-0 flex justify-end items-center gap-4 p-4">
@@ -166,21 +166,24 @@ Sinds 2013 ben ik lid van de BATC (Anne-Claire van Putten – AGB code 90048965)
 
   <section
     id="about"
-    class="flex lg:flex items-start justify-center bg-white gap-12"
+    class="grid lg:grid grid-cols-2 grid-rows-2 items-start justify-center bg-white gap-x-12"
   >
-    <div class="h-full w-1/2 object-cover">
-      <img 
-        src="/public/temp/images/about-bg.jpg" 
-        alt="Anne-Claire"
-        width="800"
-        height="600"
-        class="w-auto h-full object-cover"
-      />
-      <div class="bg-blue-500 overflow-hidden h-full flex-grow">
-        <div class="translate-x-1/2 w-96 h-96 rounded-full ml-auto bg-white/50"></div>
+    <img
+      src="/public/temp/images/about-bg.jpg"
+      alt="Anne-Claire"
+      width="800"
+      height="600"
+      class="w-auto h-full object-cover col-span-1 row-span-1"
+    />
+    <div class="relative h-full bg-blue-500 col-start-1 row-start-2 col-span-1 row-span-1">
+      <div class="h-full w-full overflow-hidden relative">
+        <div class="absolute right-0 translate-x-1/2 aspect-square h-full rounded-full bg-white/50">
+        </div>
       </div>
+      <!-- bullet ball in the middle of the circle-->
+      <div class="mx-auto top-1/2 right-0 translate-x-1/2 -translate-y-1/2 absolute z-10 rounded-full w-6 h-6 bg-blue-900"></div>
     </div>
-    <div class="w-1/2 py-8">
+    <div class="py-8 col-span-1 row-span-2">
       <h2 class="max-w-sm text-3xl text-blue-900 font-light">{{ sections.about.title }}</h2>
       <div class="text-sm text-dark-gray mt-5 max-w-xs font-extralight">
 Na mijn studie Communicatiewetenschappen aan de Universiteit van Amsterdam, heb ik lang als non-fictieredacteur gewerkt voor diverse uitgeverijen.
@@ -192,20 +195,16 @@ Uiteindelijk voelde ik de behoefte om echt van richting te veranderen. Mijn lang
 
 <br>
 
-
-
-<br>
-
-Later studeerde ik aan de Hogeschool voor Natuurgeneeswijzen in Arnhem, waar ik gefascineerd raakte door de medicinale kracht van planten en andere natuurlijke elementen, zoals mineralen die zich in de aarde bevinden. 
-Nog steeds blijf ik me verbazen over de ingenieuze manier waarop organen samenwerken in het menselijk lichaam én de effecten van natuurlijke middelen die het lichaam organisch kunnen ondersteunen en genezen. 
+Later studeerde ik aan de Hogeschool voor Natuurgeneeswijzen in Arnhem, waar ik gefascineerd raakte door de medicinale kracht van planten en andere natuurlijke elementen, zoals mineralen die zich in de aarde bevinden.
+Nog steeds blijf ik me verbazen over de ingenieuze manier waarop organen samenwerken in het menselijk lichaam én de effecten van natuurlijke middelen die het lichaam organisch kunnen ondersteunen en genezen.
 
 <br>
 
-Herstel en welzijn zijn diepe persoonlijke processen, zo heb ik geleerd, waarbij het mogelijk is een behandeling helemaal op de persoon af te stemmen. 
+Herstel en welzijn zijn diepe persoonlijke processen, zo heb ik geleerd, waarbij het mogelijk is een behandeling helemaal op de persoon af te stemmen.
 
 <br>
 
-Dr. Annelies Tak, Hilje de Meester-Wagenvoorde en Madelon Hooykaas ben ik diep dankbaar voor alle kennis, wijsheid en support. 
+Dr. Annelies Tak, Hilje de Meester-Wagenvoorde en Madelon Hooykaas ben ik diep dankbaar voor alle kennis, wijsheid en support.
 
 <br>
 
@@ -231,8 +230,9 @@ Anne-Claire
   </section>
   <section
     id="tariffs"
-    class="flex items-center justify-center bg-white py-8 text-dark-gray"
+    class="flex items-center justify-center bg-white py-16 pb-24 text-dark-gray relative"
   >
+    <div class="mx-auto left-0 right-0 absolute -translate-y-1/2 top-0 z-10 rounded-full w-6 h-6 bg-dark-gray"></div>
     <div class="max-w-4xl w-full mx-auto px-4">
       <h2 class="text-3xl mb-6 text-blue-900 font-light">{{ sections.tariffs.title }}</h2>
       <ul class="max-w-3xl -ml-5 list-disc pl-6 mt-4 text-sm list-outside">
@@ -291,8 +291,8 @@ Bij verhindering graag twee werkdagen van tevoren afzeggen.
     class="flex lg:flex items-start justify-center bg-white gap-12"
   >
     <div class="h-full w-1/2 object-cover">
-      <img 
-        src="/public/images/a-c.helft3.png" 
+      <img
+        src="/public/images/a-c.helft3.png"
         alt="Haarlemmerdijk 142-III kaart"
         width="800"
         height="600"
@@ -337,21 +337,21 @@ en sinds 2025 NAP registertherapeut)
   </div>
   
   <div class="flex mt-32 gap-4">
-    <img 
+    <img
       src="/public/images/logo-batc.png"
       alt="Logo BATC"
       width="180"
       height="48"
       class="w-auto h-12"
     />
-    <img 
+    <img
       src="/public/images/logo-koepel-nap.jpg"
       alt="Logo NAP"
       width="180"
       height="48"
       class="w-auto h-12"
     />
-    <img 
+    <img
       src="/public/images/logo-cam-coop.png"
       alt="Logo CAM Coop"
       width="180"
@@ -359,7 +359,7 @@ en sinds 2025 NAP registertherapeut)
       class="w-auto h-12"
     />
   </div>
-  </div>      
+  </div>
 </section>
 
 <footer class="bg-beige py-8">
