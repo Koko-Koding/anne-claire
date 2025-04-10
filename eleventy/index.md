@@ -45,12 +45,35 @@ language : nl
 ---
 
 <div>
+  <header 
+    class="bg-light-beige relative" 
+    style="background-image: url('/public/temp/images/header-bg.jpg'); background-size: cover; background-position: center;"
+  >
+    <div class="absolute w-full top-0 flex justify-end items-center gap-4 p-4">
+      <div class="flex items-center space-x-0.5">
+        <a href="#" title="Nederlands" class="flex justify-center items-center w-10 h-10 font-light text-xl uppercase text-dark-gray rounded-full bg-white">
+          <span>NL</span>
+        </a>
+        <a href="/en/" title="English" class="flex justify-center items-center w-10 h-10 font-light text-xl uppercase text-dark-gray transition-colors hover:bg-white/50 rounded-full">
+          <span>EN</span>
+        </a>
+      </div>
+      <!-- hamburger button with 4 lines -->
+      <button class="flex flex-col items-center justify-center w-10 h-10 space-y-1.5 cursor-pointer">
+        <span class="block w-8 h-0.5 bg-white"></span>
+        <span class="block w-8 h-0.5 bg-white"></span>
+        <span class="block w-8 h-0.5 bg-white"></span>
+        <span class="block w-8 h-0.5 bg-white"></span>
+      </button>
+    </div>
+    <div class="w-58 h-58 rounded-full bg-white/33 mx-auto"></div>  
+  </header>
   <section
     id="home"
     class="py-8 relative flex items-center justify-center bg-light-beige text-dark-gray"
   >
-    <!-- <BulletBall color="bg-white" /> -->
-    <div class="text-center">
+    <div class="mx-auto left-0 right-0 absolute -translate-y-1/2 top-0 z-10 rounded-full w-6 h-6 bg-white"></div>
+    <div class="text-center font-light">
       <h1 class="uppercase text-2xl mb-2">
         {{ sections.hero.title }}
       </h1>
