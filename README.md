@@ -53,6 +53,48 @@ The generated static files can be found in the `_site/` directory after running 
 
 Custom fonts are located in the `./public/fonts` directory. Ensure these are correctly referenced in your Tailwind CSS configuration.
 
+## Additional Commands
+
+### Tailwind CSS Build
+
+To build the Tailwind CSS styles for production:
+
+```bash
+bun run tailwindcss:build
+```
+
+This command compiles the Tailwind CSS styles from `./src/css/styles.css` into a minified CSS file located at `./public/css/bundle.css`.
+
+### Tailwind CSS Watch
+
+To watch for changes in the Tailwind CSS files and automatically rebuild:
+
+```bash
+bun run tailwindcss:watch
+```
+
+This command watches the `./src/css/styles.css` file and updates the output CSS file in `./public/css/bundle.css` whenever changes are detected.
+
+### Eleventy Build
+
+To generate the static files for the website:
+
+```bash
+bun run eleventy:build
+```
+
+This command runs Eleventy to generate the static files and outputs them to the `_site/` directory.
+
+### Eleventy Watch
+
+To start a local development server with Eleventy:
+
+```bash
+bun run eleventy:watch
+```
+
+This command starts a local server and watches for changes in the content or templates, automatically regenerating the static files.
+
 ## License
 
 This project is licensed under the MIT License.
