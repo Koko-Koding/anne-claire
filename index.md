@@ -66,7 +66,7 @@ language : nl
         <span class="block w-8 h-0.5 bg-white"></span>
       </button>
     </div>
-    
+
     <!-- Navigation Menu -->
     <nav id="navigationMenu" class="hidden fixed top-0 left-0 w-full h-full bg-dark-gray bg-opacity-95 z-20 flex-col items-center justify-center">
       <div class="container max-w-4xl mx-auto px-4 py-12 text-center">
@@ -79,7 +79,17 @@ language : nl
         </ul>
       </div>
     </nav>
-    <div class="w-58 h-58 rounded-full bg-white/33 mx-auto"></div>  
+    <div class="w-58 h-58 relative mx-auto pointer-events-none">
+      <div class="absolute inset-0 rounded-full bg-white/33"></div>
+      <!-- bullet ball blue above the middle of the circle-->
+      <div class="mx-auto top-1/2 left-0 right-0 -translate-y-14 absolute z-10 rounded-full w-14 h-14">
+        <div class="absolute inset-0 w-14 h-14 rounded-full bg-blue-900" style="mask-image: radial-gradient(circle at center 95%, transparent 40%, black 40%); -webkit-mask-image: radial-gradient(circle at center 95%, transparent 40%, black 40%);"></div>
+      </div>
+      <!-- bullet ball black under the middle of the circle-->
+      <div class="mx-auto bottom-1/2 left-0 right-0 translate-y-14 absolute z-10 rounded-full w-14 h-14">
+        <div class="absolute inset-0 w-14 h-14 rounded-full bg-dark-gray" style="mask-image: radial-gradient(circle at center 5%, transparent 40%, black 40%); -webkit-mask-image: radial-gradient(circle at center 5%, transparent 40%, black 40%);"></div>
+      </div>
+    </div>  
   </header>
   <section
     id="home"
