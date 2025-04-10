@@ -8,7 +8,8 @@
     "eleventy:build": "eleventy",
     "eleventy:watch": "eleventy --serve",
     "start": "concurrently \"bun run tailwindcss:watch\" \"bun run eleventy:watch\"",
-    "build": "bun run tailwindcss:build && bun run eleventy:build"
+    "build": "bun run tailwindcss:build && bun run eleventy:build",
+    "build:test": "bun run tailwindcss:build && bun run eleventy:build --pathprefix=/anne-claire/"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.3",
