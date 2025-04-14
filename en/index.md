@@ -265,7 +265,7 @@ With gratitude, Anne-Claire
     <div class="max-w-4xl w-full mx-auto px-4">
       <h2 class="text-3xl mb-6 text-blue-900 font-light">{{ sections.tariffs.title }}</h2>
       <ul class="max-w-3xl -ml-5 list-disc pl-6 mt-4 text-sm list-outside">
-      To make an appointment please send an <a href="mailto:info@example.com" target="_blank" class="underline">email</a> with your mobile number and I will phone you as soon as possible.
+      To make an appointment please send an <a href="mailto:anneclairevanputten@xs4all.nll" target="_blank" class="underline">email</a> with your mobile number and I will phone you as soon as possible.
         <li class="mt-4">
 <span class="font-semibold">Introductory telephone interview (15 - 20 minutes)</span><br>
 free

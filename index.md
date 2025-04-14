@@ -270,7 +270,7 @@ Anne-Claire
     <div class="max-w-4xl w-full mx-auto px-4">
       <h2 class="text-3xl mb-6 text-blue-900 font-light">{{ sections.tariffs.title }}</h2>
       <ul class="max-w-3xl -ml-5 list-disc pl-6 mt-4 text-sm list-outside">
-      Voor informatie of het maken van een afspraak graag een e-mail met je mobiele nummer en ik bel zo spoedig mogelijk.
+      Voor informatie of het maken van een afspraak graag een <a href="mailto:anneclairevanputten@xs4all.nll" target="_blank" class="underline">e-mail</a> met je mobiele nummer en ik bel zo spoedig mogelijk.
         <li class="mt-4">
 <span class="font-semibold">Telefonisch kennismakingsgesprek (15 -20 minuten)</span><br>
 kosteloos
