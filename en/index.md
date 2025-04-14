@@ -265,7 +265,7 @@ With gratitude, Anne-Claire
     <div class="max-w-4xl w-full mx-auto px-4">
       <h2 class="text-3xl mb-6 text-blue-900 font-light">{{ sections.tariffs.title }}</h2>
       <ul class="max-w-3xl -ml-5 list-disc pl-6 mt-4 text-sm list-outside">
-      To make an appointment please send an <a href="mailto:anneclairevanputten@xs4all.nll" target="_blank" class="underline">email</a> with your mobile number and I will phone you as soon as possible.
+      To make an appointment please send an <a href="mailto:anneclairevanputten@xs4all.nl" target="_blank" class="underline">email</a> with your mobile number and I will phone you as soon as possible.
         <li class="mt-4">
 <span class="font-semibold">Introductory telephone interview (15 - 20 minutes)</span><br>
 free
@@ -345,8 +345,9 @@ Haarlemmerdijk 142-III<br>
 1013JJ Amsterdam<br>
 and on location<br>
 <br>
-email: anneclairevanputten@xs4all.nl<br>
-tel. + (31)20-6272482
+email:
+<a href="mailto:anneclairevanputten@xs4all.nl" target="_blank" class="hover:underline">anneclairevanputten@xs4all.nl</a><br>
+tel. <a href="tel:+31206272482" target="_blank" class="hover:underline">+ (31)20-6272482</a>
 <br>
 <br>
 KvK 3438448<br>
