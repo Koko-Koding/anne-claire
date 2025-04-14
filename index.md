@@ -332,7 +332,7 @@ Bij verhindering graag twee werkdagen van tevoren afzeggen.
         height="600"
         class="w-auto h-full object-cover"
       />
-      <div class="mx-auto top-0 right-0 translate-x-1/2 -translate-y-1/2 absolute z-10 rounded-full w-6 h-6 bg-blue-900"></div>
+      <div class="mx-auto top-0 right-0 translate-x-1/2 -translate-y-1/2 absolute z-10 rounded-full w-6 h-6 bg-blue-900 left-0 lg:left-auto"></div>
     </div>
     <div class="hidden lg:block bg-blue-900 relative h-full col-start-1 row-start-2 col-span-1 row-span-1">
       <div class="h-full w-full overflow-hidden relative">
@@ -377,7 +377,7 @@ en sinds 2025 NAP registertherapeut)
   </div>
   </div>
   
-  <div class="flex mt-32 gap-4">
+  <div class="flex flex-wrap mt-32 gap-4">
     <img
       src="/public/images/logo-batc.png"
       alt="Logo BATC"
