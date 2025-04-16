@@ -336,8 +336,8 @@ Rescheduling or cancelling an appointment needs to be done 2 working days in adv
       <!-- bullet ball in the middle of the circle-->
       <div class="mx-auto top-0 right-0 translate-x-1/2 -translate-y-1/2 absolute z-10 rounded-full w-6 h-6 bg-dark-gray"></div>
     </div>
-    <div class="w-1/2 py-8 px-4 lg:px-12 col-span-1 row-span-2 lg:flex lg:flex-col lg:justify-between">
-      <div>
+    <div class="py-8 px-4 lg:px-12 col-span-1 row-span-2 lg:flex lg:flex-col lg:justify-between">
+      <div class="w-1/2">
       <h2 class="max-w-sm text-3xl text-blue-900 font-light">{{ sections.contact.title }}</h2>
       <div class="text-sm text-dark-gray mt-5 max-w-sm font-extralight">
 Anne-Claire van Putten<br>

@@ -330,7 +330,7 @@ Bij verhindering graag twee werkdagen van tevoren afzeggen.
         alt="Haarlemmerdijk 142-III kaart"
         width="800"
         height="600"
-        class="w-auto h-full object-cover"
+        class="w-full h-full object-cover flex-1"
       />
       <div class="mx-auto top-0 right-0 translate-x-1/2 -translate-y-1/2 absolute z-10 rounded-full w-6 h-6 bg-blue-900 left-0 lg:left-auto"></div>
     </div>
@@ -341,8 +341,8 @@ Bij verhindering graag twee werkdagen van tevoren afzeggen.
       <!-- bullet ball in the middle of the circle-->
       <div class="mx-auto top-0 right-0 translate-x-1/2 -translate-y-1/2 absolute z-10 rounded-full w-6 h-6 bg-dark-gray"></div>
     </div>
-    <div class="w-1/2 py-8 px-4 lg:px-12 col-span-1 row-span-2 lg:flex lg:flex-col lg:justify-between">
-      <div>
+    <div class="py-8 px-4 lg:px-12 col-span-1 row-span-2 lg:flex lg:flex-col lg:justify-between">
+      <div class="w-1/2">
       <h2 class="max-w-sm text-3xl text-blue-900 font-light">{{ sections.contact.title }}</h2>
       <div class="text-sm text-dark-gray mt-5 max-w-sm font-extralight">
 Anne-Claire van Putten<br>
