@@ -132,7 +132,7 @@ language : nl
     id="introduction"
     class="bg-gray-50 py-12"
     style="
-      background-image: url({{ '/public/temp/images/testimonials-else-bg.jpg' | url }});
+      background-image: url({{ '/public/images/image-1.webp' | url }});
       background-size: cover;
       background-position: bottom;
     "
@@ -181,7 +181,7 @@ Sinds 2013 ben ik lid van de BATC (Anne-Claire van Putten – AGB code 90048965)
   <section
     class="bg-beige py-8 pb-16 relative w-full"
     style="
-      background-image: url({{ '/public/temp/images/testimonials-nathalie-bg.jpg' | url }});
+      background-image: url({{ '/public/images/image-2.webp' | url }});
       background-size: cover;
       background-position: bottom;
     "
@@ -248,7 +248,7 @@ Anne-Claire
     id="testimonialEugene"
     class="bg-light-beige py-16 relative w-full"
     style="
-      background-image: url({{ '/public/images/a-c.quote3.png' | url }});
+      background-image: url({{ '/public/images/image-3.webp' | url }});
       background-size: cover;
       background-position: bottom;
     "
