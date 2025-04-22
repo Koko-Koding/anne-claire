@@ -5,11 +5,11 @@ sections:
     title: Anne-Claire van Putten
     subtitle: BATC complementair therapeut
   keywords: 
-    content: orthomoleculaire geneeskunde ⸱ natuurgeneeskunde ⸱ reflexzone ⸱ elektro-acupunctuur gespecialiseerd in versterken immuun systeem, verbeteren darmconditie en huidproblemen
+    content: orthomoleculaire geneeskunde ⸱ natuurgeneeskunde ⸱ reflexzone ⸱ acupunctuur ⸱ gespecialiseerd in versterken immuun systeem, verbeteren darmconditie en huidproblemen
   testimonials:
     else:
       content: Anne-Claire is een zeer professioneel natuurgeneeskundige en een bekwame reflexzone therapeut. Haar kennis van natuurlijke medicatie is breed. Ze is geïnteresseerd in een zeer uitgebreid spectrum van remedies en supplementen, en heeft een grote collectie om te testen. Haar advies is gebaseerd op wat ze meet en afgestemd op die persoon. Ze gelooft in preventie en in natuurlijke oplossingen voor het lichaam. En naast al deze kwalificaties is ze een hartelijke en intelligente therapeut met een oprechte interesse in mensen.
-    name: Else
+      name: Else
     nathalie:
       content: Anne-Claire van Putten is de meest deskundige vrouw die ik ooit heb ontmoet als het gaat om natuurlijke geneeskunde, kruiden en vitamines. Ze test en meet al mijn organen en mijn welzijn via drukpunten in mijn lichaam. De eerste keer ging ik naar haar toe om te kijken of ze me kon helpen beter te slapen, en uiteindelijk verklaarde ze me mijn hele medische geschiedenis door simpelweg mijn organen te evalueren. Ik stond versteld en was zó verrast.
       name: Nathalie
@@ -18,7 +18,7 @@ sections:
       name: Eugène
     ariane:
       content: Onze zoon van zes had last van ernstige ademhalingsproblemen – soms zelfs &#39;s nachts. Een collega vertelde ons over Anne-Claire van Putten. We gingen naar haar toe, en zij vond een manier om de longen van ons kind ook &#39;s nachts te laten ontspannen. Ondertussen testte ze middelen om zijn immuunsysteem te versterken. Daardoor werd zijn lichaam krachtig genoeg om de micro-organismen in zijn longen te bestrijden en zijn ademhaling goed te laten functioneren. Na zes consulten hebben we nu een gelukkige en gezonde zoon.
-      name: ARIANE AND KEES
+      name: ARIANE EN KEES
   fivePrinciples:
     title: De vijf natuurgerichte principes
   about:
@@ -36,7 +36,7 @@ sections:
       name: Website development Koko Koding, kokokoding.nl
       siteUrl: https://kokokoding.nl
     textAndPhotos:
-      name: Text and photos by Anne-Claire van Putten
+      name: © Texts and photos by Anne-Claire van Putten
       siteUrl: https://anneclairevanputten.nl
   tags: [orthomolecular medicine, medicine, naturopathy, reflex zone, electro acupuncture]
 author: Anne-Claire van Putten

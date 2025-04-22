@@ -5,11 +5,11 @@ sections:
     title: Anne-Claire van Putten
     subtitle: BATC Complementary Therapist
   keywords: 
-    content: orthomolecular medicine ⸱ medicine ⸱ naturopathy ⸱ reflex zone ⸱ electro acupuncture specialised in strengthening the immune system, improving the digestion system and skin problems
+    content: orthomolecular medicine ⸱ naturopathy ⸱ reflex zone ⸱ electro acupuncture ⸱ specialised in strengthening the immune system, improving the digestion system and skin problems
   testimonials:
     else:
       content: Anne-Claire is an exceptionally professional naturopath and a highly skilled reflex zone therapist. Her knowledge of natural medicine is extensive, and she explores a broad spectrum of remedies, maintaining a large collection for testing. Above all, her advice is precise and tailor-made, and based on thorough measurements. She strongly believes in prevention and natural solutions for the body. Beyond her qualifications, she is a warm and intelligent woman with a genuine and profound interest in people.
-    name: Else
+      name: Else
     nathalie:
       content: Anne-Claire van Putten is the most knowledgeable person I have ever met when it comes to natural medicine, herbs, and vitamins. She assesses my overall well-being and evaluates my organs by testing pressure points in my body. Initially, I consulted her for help with improving my sleep, but to my astonishment, she accurately outlined my entire medical history simply by analysing my organs. I was truly blown away.
       name: Nathalie
@@ -17,13 +17,13 @@ sections:
       content: Due to frequent travel to Asia as part of my professional life, my digestive system became irregular. Anne-Claire helped me with reflexology and provided orthomolecular advice. She is a highly comprehensive naturopath who takes the time to explain the underlying causes of skin problems, the connections between organs and various complaints, and the intricate relationship between body and mind. It is always a pleasure to speak with her.
       name: Eugène
     ariane:
-      content: Our six-year-old son suffered from severe breathing problems, sometimes even at night. A col- league recommended Anne-Claire van Putten, so we decided to visit her. She found a way to relax our child’s lungs—even during the night—while simultaneously strengthening his immune system. Over time, his body was finally able to fight off the microorganisms affecting his lungs. After six consultations, we now have a happy and healthy son.
+      content: Our six-year-old son suffered from severe breathing problems, sometimes even - at night -. A colleague recommended Anne-Claire van Putten, so we decided to visit her. She found a way to relax our child’s lungs—even during the night—while simultaneously strengthening his immune system. Over time, his body was finally able to fight off the microorganisms affecting his lungs. After six consultations, we now have a happy and healthy son.
       name: ARIANE AND KEES
   fivePrinciples:
     title: THE FIVE NATURE-ORIENTED PRINCIPLES
   about:
     title: About Anne-Claire van Putten (1960)
-    content: "After graduating from the University of Amsterdam with a degree in Communication Science, I worked as a non-fi ction editor for many years. However, I eventually felt the need for a change in direction. My long-standing interest in natural medicine, combined with my fi rsthand experience of measuring the energy of meridians, led me to pursue various forms of education: naturopathy, Eas- tern medicine, psychology and spirituality. Through this journey, I gained deep insights into physiological proces- ses, human behaviour, and trauma. I studied at the Hogeschool voor Natuurgeneeswij zen (College for Naturopathy) in Arnhem, where my curiosity was immediately drawn to the healing power of herbs and, later, other natural elements such as minerals found in the Earth. I continue to be amazed by the intricate ways in which organs work together within the human body and the profound effects of natural remedies in supporting these functions organically. In my view, recovery and well-being are deeply personal processes. The best approach is one that is tailored to the individual, focusing on personalised solutions that meet their unique needs. Thank you, dr. Annelies Tak, Hilje de Meester- Wagenvoorde and Madelon Hooykaas for your knowledge, wisdom and support. With gratitude, Anne-Claire"
+    content: "After graduating from the University of Amsterdam with a degree in Communication Science, I worked as a non-fiction editor for many years. However, I eventually felt the need for a change in direction. My long-standing interest in natural medicine, combined with my firsthand experience of measuring the energy of meridians, led me to pursue various forms of education: naturopathy, Eastern medicine, psychology and spirituality. Through this journey, I gained deep insights into physiological processes, human behaviour, and trauma. I studied at the Hogeschool voor Natuurgeneeswijzen (College for Naturopathy) in Arnhem, where my curiosity was immediately drawn to the healing power of herbs and, later, other natural elements such as minerals found in the Earth. I continue to be amazed by the intricate ways in which organs work together within the human body and the profound effects of natural remedies in supporting these functions organically. In my view, recovery and well-being are deeply personal processes. The best approach is one that is tailored to the individual, focusing on personalised solutions that meet their unique needs. Thank you dr. Annelies Tak, Hilje de Meester-Wagenvoorde and Madelon Hooykaas for your knowledge, wisdom and support. With gratitude, Anne-Claire"
   tariffs:
     title: Tariffs and reimbursement
   contact:
@@ -36,7 +36,7 @@ sections:
       name: Website development Koko Koding, kokokoding.nl
       siteUrl: https://kokokoding.nl
     textAndPhotos:
-      name: Text and photos by Anne-Claire van Putten
+      name: © Texts and photos by Anne-Claire van Putten
       siteUrl: https://anneclairevanputten.nl
   tags: [orthomolecular medicine, medicine, naturopathy, reflex zone, electro acupuncture]
 author: Anne-Claire van Putten
@@ -152,12 +152,12 @@ language : nl
       </h2>
       <div class="text-sm text-dark-gray mb-8">
 
-Since 2013 I am a registered member of the BATC (Anne-Claire van Putten with AGB code 90048965). The reason I chose this professional organisation is because the BATC developed the concept of the fi ve nature-oriented principles. In my working methods, I incorporate these important principles: energy, stimulus transition, drainage, food and mental well-being. This is part of my holistic view on health matters.
+Since 2013 I am a registered member of the BATC (Anne-Claire van Putten with AGB code 90048965). The reason I chose this professional organisation is because the BATC developed the concept of the five nature-oriented principles. In my working methods, I incorporate these important principles: energy, stimulus transition, drainage, food and mental well-being. This is part of my holistic view on health matters.
 
 <br>
 
 **Energy** is seen as the basis of life worldwide. Everything in and around us consists of energy. And energy also forms the basis of my
-treatments and my thinking. It is a priority to ensure that there is a balanced fl ow of energy and that blockages can be removed.
+treatments and my thinking. It is a priority to ensure that there is a balanced flow of energy and that blockages can be removed.
 
 <br>
 
@@ -169,11 +169,11 @@ treatments and my thinking. It is a priority to ensure that there is a balanced 
 
 <br>
 
-**Food** maintains your cells and provides them with fuel. Our daily diet is one of the most important components for a fi t and healthy body and a sharp mind. Certain foods are not tolerated equally well by everyone. This can be a temporary issue. Through nutritional advice and taking in special natural supplements this can change in a positive way.
+**Food** maintains your cells and provides them with fuel. Our daily diet is one of the most important components for a fit and healthy body and a sharp mind. Certain foods are not tolerated equally well by everyone. This can be a temporary issue. Through nutritional advice and taking in special natural supplements this can change in a positive way.
 
 <br>
 
-**Mental well-being** is important for proper functioning of the body. Emotional, mental and spiritual aspects infl uence your health. Awareness of your thoughts and behavioural patterns are obviously important. This applies for mental, but also physical well-being.
+**Mental well-being** is important for proper functioning of the body. Emotional, mental and spiritual aspects influence your health. Awareness of your thoughts and behavioural patterns are obviously important. This applies for mental, but also physical well-being.
 
       </div>
     </div>
@@ -221,7 +221,7 @@ treatments and my thinking. It is a priority to ensure that there is a balanced 
     <div class="p-8 px-4 lg:px-12 col-span-1 row-span-2 flex flex-col justify-center lg:block">
       <h2 class="max-w-sm text-3xl text-blue-900 font-light">{{ sections.about.title }}</h2>
       <div class="text-sm text-dark-gray mt-5 max-w-xs font-extralight">
-After graduating from the University of Amsterdam with a degree in Communication Science, I worked as a non-fi ction editor for many years. However, I eventually felt the need for a change in direction. My long-standing interest in natural medicine, combined with my fi rsthand experience of measuring the energy of meridians, led me to pursue various forms of education: naturopathy, Eastern medicine, psychology and spirituality. Through this journey, I gained deep insights into physiological proces- ses, human behaviour, and trauma.
+After graduating from the University of Amsterdam with a degree in Communication Science, I worked as a non-fiction editor for many years. However, I eventually felt the need for a change in direction. My long-standing interest in natural medicine, combined with my firsthand experience of measuring the energy of meridians, led me to pursue various forms of education: naturopathy, Eastern medicine, psychology and spirituality. Through this journey, I gained deep insights into physiological processes, human behaviour, and trauma.
 
 <br>
 
@@ -233,7 +233,7 @@ In my view, recovery and well-being are deeply personal processes. The best appr
 
 <br>
 
-Thank you, dr. Annelies Tak, Hilje de Meester-Wagenvoorde and Madelon Hooykaas for your knowledge, wisdom and support.
+Thank you dr. Annelies Tak, Hilje de Meester-Wagenvoorde and Madelon Hooykaas for your knowledge, wisdom and support.
 
 <br>
 
