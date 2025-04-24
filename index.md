@@ -160,11 +160,11 @@ Sinds 2013 ben ik lid van de BATC (Anne-Claire van Putten – AGB code 90048965)
 
 <br>
 
-**Prikkeloverdracht** komt tot stand via het zenuwstelsel en is het communicatienetwerk van het lichaam. De prikkeloverdracht zorgt er ook voor dat bepaalde signalen – bijvoorbeeld wat iemand nodig hebt voor herstel – aan het lichaam worden doorgegeven. Een goede prikkeloverdracht is essentieel om goed te kunnen functioneren en te herstellen.
+**Prikkeloverdracht** komt tot stand via het zenuwstelsel en is het communicatienetwerk van het lichaam. De prikkeloverdracht zorgt er ook voor dat bepaalde signalen – bijvoorbeeld wat iemand nodig heeft voor herstel – aan het lichaam worden doorgegeven. Een goede prikkeloverdracht is essentieel om goed te kunnen functioneren en te herstellen.
 
 <br>
 
-**Drainage** is het stimuleren van het verwerken van afvalstoffen. Onder gunstige omstandigheden is het lichaam in staat de meeste afvalstoffen af te breken en via de uitscheidingsorganen af te voeren. Daarnaast kan er in het lichaam een teveel aan afvalstoffen ontstaan doordat bijvoorbeeld het lymfesysteem of bloedcirculatie niet optimaal functioneren. Wanneer zich te veel afvalstoffen ophopen, bijvoorbeeld in de darmen, kunnen voedingsstoffen ook niet goed meer worden opgenomen.
+**Drainage** is het stimuleren van het verwerken van afvalstoffen. Onder gunstige omstandigheden is het lichaam in staat de meeste afvalstoffen af te breken en via de uitscheidingsorganen af te voeren. Daarnaast kan er in het lichaam een teveel aan afvalstoffen ontstaan doordat bijvoorbeeld het lymfesysteem of de bloedcirculatie niet optimaal functioneren. Wanneer zich te veel afvalstoffen ophopen, bijvoorbeeld in de darmen, kunnen voedingsstoffen ook niet goed meer worden opgenomen.
 
 <br>
 
