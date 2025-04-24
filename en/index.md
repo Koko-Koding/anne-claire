@@ -5,7 +5,7 @@ sections:
     title: Anne-Claire van Putten
     subtitle: BATC Complementary Therapist
   keywords: 
-    content: orthomolecular medicine ⸱ naturopathy ⸱ reflex zone ⸱ electro acupuncture ⸱ specialised in strengthening the immune system, improving the digestion system and skin problems
+    content: orthomolecular medicine ⸱ naturopathy ⸱ reflex zone ⸱ electro&nbsp;acupuncture ⸱ <br>specialised in strengthening the immune system, improving the digestion system and skin problems
   testimonials:
     else:
       content: Anne-Claire is an exceptionally professional naturopath and a highly skilled reflex zone therapist. Her knowledge of natural medicine is extensive, and she explores a broad spectrum of remedies, maintaining a large collection for testing. Above all, her advice is precise and tailor-made, and based on thorough measurements. She strongly believes in prevention and natural solutions for the body. Beyond her qualifications, she is a warm and intelligent woman with a genuine and profound interest in people.
@@ -223,6 +223,7 @@ treatments and my thinking. It is a priority to ensure that there is a balanced 
       <div class="text-sm text-dark-gray mt-5 max-w-xs font-extralight">
 After graduating from the University of Amsterdam with a degree in Communication Science, I worked as a non-fiction editor for many years. However, I eventually felt the need for a change in direction. My long-standing interest in natural medicine, combined with my firsthand experience of measuring the energy of meridians, led me to pursue various forms of education: naturopathy, Eastern medicine, psychology and spirituality. Through this journey, I gained deep insights into physiological processes, human behaviour, and trauma.
 
+<br>
 <br>
 
 I studied at the Hogeschool voor Natuurgeneeswijzen (College for Naturopathy) in Arnhem, where my curiosity was immediately drawn to the healing power of herbs and, later, other natural elements such as minerals found in the Earth. I continue to be amazed by the intricate ways in which organs work together within the human body and the profound effects of natural remedies in supporting these functions organically.

@@ -5,7 +5,7 @@ sections:
     title: Anne-Claire van Putten
     subtitle: BATC complementair therapeut
   keywords: 
-    content: orthomoleculaire geneeskunde ⸱ natuurgeneeskunde ⸱ reflexzone ⸱ acupunctuur ⸱ gespecialiseerd in versterken immuun systeem, verbeteren darmconditie en huidproblemen
+    content: natuurgeneeskunde ⸱ reflexzone ⸱ orthomoleculaire geneeskunde ⸱ elektroacupunctuur ⸱ gespecialiseerd in versterken immuunsysteem, verbeteren darmconditie en huidproblemen
   testimonials:
     else:
       content: Anne-Claire is een zeer professioneel natuurgeneeskundige en een bekwame reflexzone therapeut. Haar kennis van natuurlijke medicatie is breed. Ze is geïnteresseerd in een zeer uitgebreid spectrum van remedies en supplementen, en heeft een grote collectie om te testen. Haar advies is gebaseerd op wat ze meet en afgestemd op die persoon. Ze gelooft in preventie en in natuurlijke oplossingen voor het lichaam. En naast al deze kwalificaties is ze een hartelijke en intelligente therapeut met een oprechte interesse in mensen.
