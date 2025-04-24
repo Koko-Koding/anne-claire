@@ -346,8 +346,8 @@ Haarlemmerdijk 142-III<br>
 and on location<br>
 <br>
 email:
-<a href="mailto:anneclairevanputten@xs4all.nl" target="_blank" class="hover:underline">anneclairevanputten@xs4all.nl</a><br>
-tel. <a href="tel:+31206272482" target="_blank" class="hover:underline">+ (31)20-6272482</a>
+<a href="mailto:anneclairevanputten@xs4all.nl" target="_blank" class="underline">anneclairevanputten@xs4all.nl</a><br>
+tel. <a href="tel:+31206272482" target="_blank" class="underline">+ (31)20-6272482</a>
 <br>
 <br>
 KvK 3438448<br>
