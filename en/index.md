@@ -325,7 +325,7 @@ Rescheduling or cancelling an appointment needs to be done 2 working days in adv
         alt="Haarlemmerdijk 142-III kaart"
         width="800"
         height="600"
-        class="w-auto h-full object-cover"
+        class="w-full h-full object-cover flex-1"
       />
       <div class="mx-auto top-0 right-0 translate-x-1/2 -translate-y-1/2 absolute z-10 rounded-full w-6 h-6 bg-blue-900 left-0 lg:left-auto"></div>
     </div>
