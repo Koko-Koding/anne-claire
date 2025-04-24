@@ -120,7 +120,7 @@ language : nl
   <section>
     <div class="py-8 px-4 relative flex items-center justify-center bg-white text-dark-gray">
       <div class="mx-auto left-0 right-0 absolute -translate-y-1/2 top-0 z-10 rounded-full w-6 h-6 bg-blue-900"></div>
-      <div class="text-center max-w-4xl mx-auto">
+      <div class="text-center max-w-3xl mx-auto">
         <p class="lowercase text-lg">
           {{ sections.keywords.content }}
         </p>
