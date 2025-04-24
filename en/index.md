@@ -17,7 +17,7 @@ sections:
       content: Due to frequent travel to Asia as part of my professional life, my digestive system became irregular. Anne-Claire helped me with reflexology and provided orthomolecular advice. She is a highly comprehensive naturopath who takes the time to explain the underlying causes of skin problems, the connections between organs and various complaints, and the intricate relationship between body and mind. It is always a pleasure to speak with her.
       name: Eugène
     ariane:
-      content: Our six-year-old son suffered from severe breathing problems, sometimes even - at night -. A colleague recommended Anne-Claire van Putten, so we decided to visit her. She found a way to relax our child’s lungs—even during the night—while simultaneously strengthening his immune system. Over time, his body was finally able to fight off the microorganisms affecting his lungs. After six consultations, we now have a happy and healthy son.
+      content: Our six-year-old son suffered from severe breathing problems, sometimes even at night. A colleague recommended Anne-Claire van Putten, so we decided to visit her. She found a way to relax our child’s lungs—even during the night—while simultaneously strengthening his immune system. Over time, his body was finally able to fight off the microorganisms affecting his lungs. After six consultations, we now have a happy and healthy son.
       name: ARIANE AND KEES
   fivePrinciples:
     title: THE FIVE NATURE-ORIENTED PRINCIPLES
