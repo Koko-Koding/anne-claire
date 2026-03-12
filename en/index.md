@@ -293,6 +293,8 @@ from € 90 per hour
 Zilveren Kruis Achmea, CZ, Nationale Nederlanden, Ohra, De Friesland, ONVZ, PNO, Menzis, VGZ, IZZ, IZA, Univé, UMC and United Consumers.
 <br><br>
 Rescheduling or cancelling an appointment needs to be done 2 working days in advance.
+<br><br>
+<a href="/public/pdfs/anne-claire_A4_voorwaarden_E.pdf" target="_blank" class="underline">Terms and conditions (PDF)</a>
 </ul>
     </div>
   </section>
@@ -375,27 +377,33 @@ and since 2025 NAP registered therapist)
   </div>
   
   <div class="flex flex-wrap mt-32 gap-4">
-    <img
-      src="/public/images/logo-batc.png"
-      alt="Logo BATC"
-      width="180"
-      height="48"
-      class="w-auto h-12"
-    />
-    <img
-      src="/public/images/logo-koepel-nap.jpg"
-      alt="Logo NAP"
-      width="180"
-      height="48"
-      class="w-auto h-12"
-    />
-    <img
-      src="/public/images/logo-cam-coop.png"
-      alt="Logo CAM Coop"
-      width="180"
-      height="48"
-      class="w-auto h-12"
-    />
+    <a href="https://batc.nl/over-batc/" target="_blank" rel="noopener noreferrer">
+      <img
+        src="/public/images/logo-batc.png"
+        alt="Logo BATC"
+        width="180"
+        height="48"
+        class="w-auto h-12"
+      />
+    </a>
+    <a href="https://nap-koepel.nl/" target="_blank" rel="noopener noreferrer">
+      <img
+        src="/public/images/logo-koepel-nap.jpg"
+        alt="Logo NAP"
+        width="180"
+        height="48"
+        class="w-auto h-12"
+      />
+    </a>
+    <a href="https://www.camcoop.nl/index" target="_blank" rel="noopener noreferrer">
+      <img
+        src="/public/images/logo-cam-coop.png"
+        alt="Logo CAM Coop"
+        width="180"
+        height="48"
+        class="w-auto h-12"
+      />
+    </a>
   </div>
   </div>
 </section>

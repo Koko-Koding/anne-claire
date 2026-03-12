@@ -297,6 +297,8 @@ vanaf € 90 per uur
 Zilveren Kruis Achmea, CZ, Nationale Nederlanden, Ohra, De Friesland, ONVZ, PNO, Menzis, VGZ, IZZ, IZA, Univé, UMC en United Consumers.
 <br><br>
 Bij verhindering graag twee werkdagen van tevoren afzeggen.
+<br><br>
+<a href="/public/pdfs/anne-claire_A4_voorwaarden_NL.pdf" target="_blank" class="underline">Algemene voorwaarden (PDF)</a>
 </ul>
     </div>
   </section>
@@ -379,27 +381,33 @@ en sinds 2025 NAP registertherapeut)
   </div>
   
   <div class="flex flex-wrap mt-32 gap-4">
-    <img
-      src="/public/images/logo-batc.png"
-      alt="Logo BATC"
-      width="180"
-      height="48"
-      class="w-auto h-12"
-    />
-    <img
-      src="/public/images/logo-koepel-nap.jpg"
-      alt="Logo NAP"
-      width="180"
-      height="48"
-      class="w-auto h-12"
-    />
-    <img
-      src="/public/images/logo-cam-coop.png"
-      alt="Logo CAM Coop"
-      width="180"
-      height="48"
-      class="w-auto h-12"
-    />
+    <a href="https://batc.nl/over-batc/" target="_blank" rel="noopener noreferrer">
+      <img
+        src="/public/images/logo-batc.png"
+        alt="Logo BATC"
+        width="180"
+        height="48"
+        class="w-auto h-12"
+      />
+    </a>
+    <a href="https://nap-koepel.nl/" target="_blank" rel="noopener noreferrer">
+      <img
+        src="/public/images/logo-koepel-nap.jpg"
+        alt="Logo NAP"
+        width="180"
+        height="48"
+        class="w-auto h-12"
+      />
+    </a>
+    <a href="https://www.camcoop.nl/index" target="_blank" rel="noopener noreferrer">
+      <img
+        src="/public/images/logo-cam-coop.png"
+        alt="Logo CAM Coop"
+        width="180"
+        height="48"
+        class="w-auto h-12"
+      />
+    </a>
   </div>
   </div>
 </section>
