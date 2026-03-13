@@ -375,10 +375,6 @@ Haarlemmerplein<br>
 <br>
 Parkeergarage Willemspoort, Haarlemmerhouttuinen 549<br>
 <br>
-<b class="font-medium">Kwalificaties Vektis:</b> <br>
-natuurgeneeskunde en psychosociaal zorgverlener<br>
-(BATC beroepsvereniging sinds 2013,<br>
-en sinds 2025 NAP registertherapeut)
 
   </div>
   </div>
