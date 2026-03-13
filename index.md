@@ -277,26 +277,26 @@ kosteloos
 </li>
         <li class="mt-4">
 <span class="font-semibold">Orthomoleculaire geneeskunde</span><br>
-vanaf € 40 per 30 minuten (vergoeding onder code 24000)
+€ 40 per 30 minuten (vergoeding onder code 24000)
 </li>
         <li class="mt-4">
 <span class="font-semibold">Reflexzone therapie</span><br>
-vanaf € 40 per 30 minuten (vergoeding onder code 24009)
+€ 40 per 30 minuten (vergoeding onder code 24009)
 </li>
         <li class="mt-4">
 <span class="font-semibold">Integraal natuurgeneeskundig consult</span><br>
-vanaf € 90 per uur
+€ 90 per uur
 </li>
         <li class="mt-4">
 <span class="font-semibold">Psychosociale zorgverlening</span><br>
-vanaf € 90 per uur
+€ 90 per uur
 </li>
 <br>
 <span class="font-semibold">Mijn consulten worden (gedeeltelijk) vergoed door:</span>
 
-Zilveren Kruis Achmea, CZ, Nationale Nederlanden, Ohra, De Friesland, ONVZ, PNO, Menzis, VGZ, IZZ, IZA, Univé, UMC en United Consumers.
+Zilveren Kruis Achmea, CZ, Nationale Nederlanden, Ohra, De Friesland, ONVZ, PNO, Menzis, VGZ, IZZ, IZA, Univé, UMC en United Consumers. Welk bedrag per consult wordt vergoed, is afhankelijk van je polis en polisvoorwaarden.
 <br><br>
-Bij verhindering graag twee werkdagen van tevoren afzeggen.
+<a href="/public/pdfs/anne-claire_A4_voorwaarden_NL.pdf" target="_blank" class="underline">Voorwaarden, privacy waarborg en klachtenregeling</a>
 </ul>
     </div>
   </section>
@@ -357,14 +357,19 @@ tel. <a href="tel:+31206272482" target="_blank" class="underline">+ (31)20-62724
 <br>
 KvK 3438448<br>
 AGB code 90048965<br>
+Beroepsvereniging BATC BR-02063<br>
+Cam-Coöp reg.nr. 2063<br>
+NAP-koepel lic.nr. 250065<br>
+Kwalificaties Vektis:<br>
+natuurgeneeskunde en psychosociaal zorgverlener<br>
 <br>
 <b class="font-medium">De praktijk is bereikbaar met openbaar vervoer:</b>
 <br>
 bus 18, 21 en 22:<br>
 halte Buiten Oranjestraat of<br>
 halte Haarlemmerplein<br>
-tram 5:<br>
-halte Haarlemmerplein<br>
+tramhalte:<br>
+Haarlemmerplein<br>
 <br>
 <b class="font-medium">Parkeren vlakbij het Haarlemmerplein:</b>
 <br>
@@ -379,27 +384,33 @@ en sinds 2025 NAP registertherapeut)
   </div>
   
   <div class="flex flex-wrap mt-32 gap-4">
-    <img
-      src="/public/images/logo-batc.png"
-      alt="Logo BATC"
-      width="180"
-      height="48"
-      class="w-auto h-12"
-    />
-    <img
-      src="/public/images/logo-koepel-nap.jpg"
-      alt="Logo NAP"
-      width="180"
-      height="48"
-      class="w-auto h-12"
-    />
-    <img
-      src="/public/images/logo-cam-coop.png"
-      alt="Logo CAM Coop"
-      width="180"
-      height="48"
-      class="w-auto h-12"
-    />
+    <a href="https://batc.nl/over-batc/" target="_blank" rel="noopener noreferrer">
+      <img
+        src="/public/images/logo-batc.png"
+        alt="Logo BATC"
+        width="180"
+        height="48"
+        class="w-auto h-12"
+      />
+    </a>
+    <a href="https://nap-koepel.nl/" target="_blank" rel="noopener noreferrer">
+      <img
+        src="/public/images/logo-koepel-nap.jpg"
+        alt="Logo NAP"
+        width="180"
+        height="48"
+        class="w-auto h-12"
+      />
+    </a>
+    <a href="https://www.camcoop.nl/index" target="_blank" rel="noopener noreferrer">
+      <img
+        src="/public/images/logo-cam-coop.png"
+        alt="Logo CAM Coop"
+        width="180"
+        height="48"
+        class="w-auto h-12"
+      />
+    </a>
   </div>
   </div>
 </section>
