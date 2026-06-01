@@ -277,19 +277,19 @@ kosteloos
 </li>
         <li class="mt-4">
 <span class="font-semibold">Orthomoleculaire geneeskunde</span><br>
-€ 40 per 30 minuten (vergoeding onder code 24000)
+€ 45 per 30 minuten (vergoeding onder code 24000)
 </li>
         <li class="mt-4">
 <span class="font-semibold">Reflexzone therapie</span><br>
-€ 40 per 30 minuten (vergoeding onder code 24009)
+€ 45 per 30 minuten (vergoeding onder code 24009)
 </li>
         <li class="mt-4">
 <span class="font-semibold">Integraal natuurgeneeskundig consult</span><br>
-€ 90 per uur
+€ 100 per uur
 </li>
         <li class="mt-4">
 <span class="font-semibold">Psychosociale zorgverlening</span><br>
-€ 90 per uur
+€ 100 per uur
 </li>
 <br>
 <span class="font-semibold">Mijn consulten worden (gedeeltelijk) vergoed door:</span>
