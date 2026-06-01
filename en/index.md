@@ -273,19 +273,19 @@ free
 </li>
         <li class="mt-4">
 <span class="font-semibold">Orthomolecular medicine consultation</span><br>
-€ 40 per 30 minutes (reimbursed with code 24000)
+€ 45 per 30 minutes (reimbursed with code 24000)
 </li>
         <li class="mt-4">
 <span class="font-semibold">Reflex zone therapy</span><br>
-€ 40 per 30 minutes (reimbursed with code 24009)
+€ 45 per 30 minutes (reimbursed with code 24009)
 </li>
         <li class="mt-4">
 <span class="font-semibold">Integral naturopathic consultation</span><br>
-€ 90 per hour
+€ 100 per hour
 </li>
         <li class="mt-4">
 <span class="font-semibold">Psychosocial care provision</span><br>
-€ 90 per hour
+€ 100 per hour
 </li>
 <br>
 <span class="font-semibold">My consultations are (partly) reimbursed by:</span>
