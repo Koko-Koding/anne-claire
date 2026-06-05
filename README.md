@@ -42,7 +42,28 @@ bun run build
 
 ## Deployment
 
-The generated static files can be found in the `_site/` directory after running the build command. These files can be uploaded to an Apache server for hosting.
+The generated static files can be found in the `_site/` directory after running the build command.
+
+### FTP deploy
+
+`scripts/deploy-ftp.js` builds (when run via `deploy`) and mirrors `_site/` to the
+production web root over FTPS (falling back to plain FTP).
+
+1. Copy `.env.example` to `.env` and fill in the FTP credentials and `FTP_REMOTE_DIR`
+   (the web root, e.g. `/httpdocs`). `.env` is gitignored.
+2. Preview what would change without touching the server:
+   ```bash
+   bun run deploy:dry
+   ```
+3. Build and deploy:
+   ```bash
+   bun run deploy
+   ```
+
+The deploy **mirrors** the remote directory: files in `_site/` are uploaded and
+anything else under `FTP_REMOTE_DIR` is deleted, so point it at the web root, not
+the server root (the script refuses `/` as a safety guard). Use `deploy:ftp` to
+push the existing `_site/` without rebuilding.
 
 ## Hosting on Apache
 

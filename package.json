@@ -9,11 +9,15 @@
     "eleventy:watch": "eleventy --serve",
     "start": "concurrently \"bun run tailwindcss:watch\" \"bun run eleventy:watch\"",
     "build": "bun run tailwindcss:build && bun run eleventy:build",
-    "build:test": "bun run tailwindcss:build && bun run eleventy:build --pathprefix=/anne-claire/"
+    "build:test": "bun run tailwindcss:build && bun run eleventy:build --pathprefix=/anne-claire/",
+    "deploy": "bun run build && bun run scripts/deploy-ftp.js",
+    "deploy:ftp": "bun run scripts/deploy-ftp.js",
+    "deploy:dry": "bun run scripts/deploy-ftp.js --dry-run"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.3",
     "@types/bun": "latest",
+    "basic-ftp": "^6.0.1",
     "concurrently": "^9.1.2"
   },
   "peerDependencies": {
